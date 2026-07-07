@@ -90,7 +90,7 @@ The dashboard provides:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/AMR_Insight.git
+git clone https://github.com/sristanka/AMR_Insight.git
 ```
 
 Move into the project directory:
@@ -131,7 +131,7 @@ Screenshots will be added after project completion.
 
 ## 👨‍💻 Author
 
-**Sris**
+**Sristanka Adhikary**
 
 Biotechnology Undergraduate | Bioinformatics Enthusiast
 
