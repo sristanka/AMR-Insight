@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Sample_Type,Organism,Antibiotic,Result,Collection_Date
+P0001,36,Male,Urine,Enterococcus faecalis,Amoxicillin,S,2025-03-13
+P0002,70,Male,CSF,Enterococcus faecalis,Amoxicillin,I,2025-08-05
+P0003,30,Male,CSF,Escherichia coli,Ampicillin,S,2025-04-12
+P0004,58,Female,Blood,Enterococcus faecalis,Linezolid,S,2025-03-23
+P0005,20,Male,Sputum,Enterococcus faecalis,Meropenem,S,2025-02-22
+P0006,45,Female,Blood,Escherichia coli,Meropenem,S,2025-08-24
+P0007,49,Male,CSF,Acinetobacter baumannii,Amoxicillin,R,2025-05-31
+P0008,47,Male,Blood,Enterococcus faecalis,Piperacillin-Tazobactam,R,2025-01-24
+P0009,11,Male,Blood,Enterococcus faecalis,Ciprofloxacin,R,2025-07-14
+P0010,47,Male,Sputum,Staphylococcus aureus,Vancomycin,I,2025-07-01
+P0011,88,Male,CSF,Klebsiella pneumoniae,Gentamicin,R,2025-11-22
+P0012,21,Female,Wound Swab,Klebsiella pneumoniae,Linezolid,R,2025-05-19
+P0013,42,Male,Urine,Enterococcus faecalis,Linezolid,S,2025-01-17
+P0014,28,Female,Urine,Staphylococcus aureus,Meropenem,S,2025-12-02
+P0015,83,Female,Urine,Pseudomonas aeruginosa,Meropenem,R,2025-05-16
+P0016,69,Female,CSF,Klebsiella pneumoniae,Ciprofloxacin,R,2025-08-08
+P0017,18,Female,Blood,Acinetobacter baumannii,Meropenem,R,2025-01-25
+P0018,88,Female,CSF,Escherichia coli,Ceftriaxone,R,2025-02-02
+P0019,60,Female,CSF,Pseudomonas aeruginosa,Meropenem,R,2025-01-06
+P0020,69,Female,Sputum,Enterococcus faecalis,Amoxicillin,I,2025-02-27
+P0021,1,Female,CSF,Staphylococcus aureus,Meropenem,S,2025-04-02
+P0022,39,Male,Urine,Acinetobacter baumannii,Amoxicillin,R,2025-07-11
+P0023,68,Male,CSF,Klebsiella pneumoniae,Linezolid,R,2025-06-15
+P0024,47,Female,Urine,Pseudomonas aeruginosa,Ampicillin,S,2025-01-30
+P0025,11,Female,Blood,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-09-30
+P0026,71,Male,Sputum,Klebsiella pneumoniae,Ceftriaxone,R,2025-09-28
+P0027,70,Male,Sputum,Acinetobacter baumannii,Meropenem,R,2025-07-24
+P0028,67,Female,Blood,Enterococcus faecalis,Amikacin,S,2025-05-07
+P0029,76,Male,CSF,Klebsiella pneumoniae,Amoxicillin,S,2025-04-23
+P0030,8,Male,Blood,Escherichia coli,Amoxicillin,R,2025-01-17
+P0031,36,Female,Urine,Staphylococcus aureus,Amoxicillin,S,2025-10-04
+P0032,32,Female,Wound Swab,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-04-08
+P0033,46,Female,Wound Swab,Escherichia coli,Amoxicillin,R,2025-08-28
+P0034,83,Male,Blood,Enterococcus faecalis,Ampicillin,I,2025-07-26
+P0035,14,Male,Urine,Enterococcus faecalis,Amikacin,R,2025-04-08
+P0036,24,Female,Wound Swab,Acinetobacter baumannii,Vancomycin,S,2025-05-08
+P0037,71,Male,Blood,Escherichia coli,Vancomycin,R,2025-11-30
+P0038,31,Male,Wound Swab,Acinetobacter baumannii,Ampicillin,R,2025-09-06
+P0039,8,Male,Wound Swab,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-01-02
+P0040,59,Female,Wound Swab,Pseudomonas aeruginosa,Gentamicin,R,2025-12-23
+P0041,63,Male,Urine,Enterococcus faecalis,Linezolid,I,2025-06-01
+P0042,70,Male,Sputum,Klebsiella pneumoniae,Ampicillin,R,2025-01-30
+P0043,68,Male,Blood,Escherichia coli,Piperacillin-Tazobactam,I,2025-09-18
+P0044,9,Male,Wound Swab,Escherichia coli,Ceftriaxone,S,2025-03-03
+P0045,6,Male,Wound Swab,Acinetobacter baumannii,Ciprofloxacin,R,2025-12-03
+P0046,34,Male,Sputum,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-05-03
+P0047,83,Female,Wound Swab,Staphylococcus aureus,Meropenem,S,2025-06-11
+P0048,73,Male,Blood,Escherichia coli,Ampicillin,I,2025-10-03
+P0049,45,Male,Urine,Klebsiella pneumoniae,Linezolid,S,2025-07-09
+P0050,70,Female,CSF,Staphylococcus aureus,Ceftriaxone,S,2025-12-01
+P0051,71,Female,Blood,Acinetobacter baumannii,Ampicillin,R,2025-03-10
+P0052,71,Male,Sputum,Staphylococcus aureus,Amoxicillin,R,2025-05-25
+P0053,27,Female,CSF,Acinetobacter baumannii,Ciprofloxacin,R,2025-09-08
+P0054,55,Female,Blood,Staphylococcus aureus,Ampicillin,S,2025-01-02
+P0055,34,Male,Wound Swab,Staphylococcus aureus,Ceftriaxone,I,2025-10-10
+P0056,15,Male,Urine,Enterococcus faecalis,Meropenem,S,2025-10-07
+P0057,19,Female,Urine,Escherichia coli,Amikacin,R,2025-01-22
+P0058,6,Female,Urine,Staphylococcus aureus,Amikacin,R,2025-12-16
+P0059,72,Female,CSF,Klebsiella pneumoniae,Amoxicillin,I,2025-03-21
+P0060,23,Female,Blood,Klebsiella pneumoniae,Ceftriaxone,R,2025-04-02
+P0061,53,Male,Sputum,Enterococcus faecalis,Amikacin,R,2025-03-23
+P0062,5,Female,Urine,Enterococcus faecalis,Amoxicillin,S,2025-04-13
+P0063,30,Male,Blood,Pseudomonas aeruginosa,Amikacin,I,2025-12-04
+P0064,9,Female,Sputum,Klebsiella pneumoniae,Meropenem,S,2025-11-25
+P0065,69,Female,Blood,Acinetobacter baumannii,Meropenem,R,2025-03-01
+P0066,34,Male,Blood,Staphylococcus aureus,Ceftriaxone,I,2025-11-02
+P0067,41,Female,CSF,Pseudomonas aeruginosa,Amikacin,R,2025-09-19
+P0068,25,Female,Blood,Escherichia coli,Meropenem,R,2025-12-29
+P0069,69,Male,Sputum,Pseudomonas aeruginosa,Ampicillin,R,2025-08-09
+P0070,85,Male,Sputum,Escherichia coli,Amikacin,R,2025-09-17
+P0071,90,Female,CSF,Staphylococcus aureus,Meropenem,S,2025-03-07
+P0072,49,Male,CSF,Klebsiella pneumoniae,Meropenem,R,2025-10-19
+P0073,1,Female,Sputum,Staphylococcus aureus,Meropenem,S,2025-04-18
+P0074,42,Female,Wound Swab,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-08-15
+P0075,22,Male,Sputum,Enterococcus faecalis,Ciprofloxacin,S,2025-09-21
+P0076,31,Female,Urine,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-04-12
+P0077,61,Male,Wound Swab,Klebsiella pneumoniae,Ampicillin,S,2025-08-01
+P0078,90,Female,Wound Swab,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-07-24
+P0079,1,Male,Wound Swab,Klebsiella pneumoniae,Ceftriaxone,R,2025-04-23
+P0080,72,Male,Blood,Klebsiella pneumoniae,Linezolid,R,2025-08-22
+P0081,72,Female,Wound Swab,Klebsiella pneumoniae,Vancomycin,R,2025-11-10
+P0082,71,Female,Urine,Enterococcus faecalis,Linezolid,S,2025-09-01
+P0083,82,Female,CSF,Pseudomonas aeruginosa,Gentamicin,R,2025-09-06
+P0084,10,Female,Urine,Enterococcus faecalis,Ciprofloxacin,S,2025-05-20
+P0085,11,Male,Urine,Staphylococcus aureus,Amikacin,R,2025-04-29
+P0086,9,Female,Wound Swab,Pseudomonas aeruginosa,Ceftriaxone,R,2025-06-19
+P0087,27,Female,Wound Swab,Acinetobacter baumannii,Vancomycin,R,2025-10-27
+P0088,74,Female,Wound Swab,Enterococcus faecalis,Ampicillin,R,2025-01-04
+P0089,54,Male,Wound Swab,Staphylococcus aureus,Gentamicin,R,2025-04-23
+P0090,50,Female,Wound Swab,Staphylococcus aureus,Meropenem,S,2025-03-26
+P0091,69,Male,Wound Swab,Pseudomonas aeruginosa,Ceftriaxone,R,2025-10-31
+P0092,55,Male,Wound Swab,Acinetobacter baumannii,Ampicillin,S,2025-04-04
+P0093,28,Female,Sputum,Escherichia coli,Gentamicin,S,2025-06-22
+P0094,54,Female,Blood,Pseudomonas aeruginosa,Gentamicin,R,2025-08-29
+P0095,45,Male,Blood,Escherichia coli,Linezolid,S,2025-11-30
+P0096,26,Male,CSF,Escherichia coli,Ampicillin,R,2025-03-20
+P0097,15,Male,Wound Swab,Klebsiella pneumoniae,Ceftriaxone,R,2025-12-25
+P0098,78,Male,Urine,Staphylococcus aureus,Amikacin,S,2025-06-09
+P0099,40,Female,Wound Swab,Escherichia coli,Piperacillin-Tazobactam,S,2025-04-12
+P0100,81,Male,Blood,Escherichia coli,Piperacillin-Tazobactam,R,2025-12-23
+P0101,73,Male,Sputum,Staphylococcus aureus,Piperacillin-Tazobactam,R,2025-09-30
+P0102,83,Female,Blood,Pseudomonas aeruginosa,Amikacin,S,2025-08-04
+P0103,47,Female,Urine,Pseudomonas aeruginosa,Amoxicillin,R,2025-08-11
+P0104,35,Female,Wound Swab,Klebsiella pneumoniae,Linezolid,R,2025-08-12
+P0105,32,Male,Sputum,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-08-19
+P0106,86,Female,Sputum,Klebsiella pneumoniae,Vancomycin,R,2025-01-15
+P0107,28,Female,Sputum,Pseudomonas aeruginosa,Amikacin,S,2025-06-24
+P0108,36,Male,CSF,Staphylococcus aureus,Piperacillin-Tazobactam,R,2025-04-08
+P0109,63,Male,Wound Swab,Escherichia coli,Ciprofloxacin,R,2025-11-27
+P0110,3,Male,Sputum,Enterococcus faecalis,Vancomycin,S,2025-04-24
+P0111,75,Female,Wound Swab,Pseudomonas aeruginosa,Ciprofloxacin,I,2025-10-11
+P0112,71,Female,Sputum,Acinetobacter baumannii,Amikacin,R,2025-12-26
+P0113,30,Male,Urine,Pseudomonas aeruginosa,Gentamicin,I,2025-06-11
+P0114,89,Male,Urine,Escherichia coli,Linezolid,R,2025-04-21
+P0115,76,Female,Blood,Enterococcus faecalis,Vancomycin,S,2025-04-10
+P0116,39,Male,CSF,Staphylococcus aureus,Ciprofloxacin,S,2025-03-06
+P0117,71,Female,Urine,Staphylococcus aureus,Ampicillin,R,2025-11-23
+P0118,74,Female,Wound Swab,Pseudomonas aeruginosa,Amoxicillin,R,2025-09-03
+P0119,7,Female,Wound Swab,Pseudomonas aeruginosa,Amikacin,S,2025-02-28
+P0120,74,Male,Urine,Escherichia coli,Meropenem,I,2025-03-18
+P0121,32,Male,CSF,Acinetobacter baumannii,Gentamicin,S,2025-08-02
+P0122,29,Female,Wound Swab,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-08-15
+P0123,40,Male,CSF,Staphylococcus aureus,Piperacillin-Tazobactam,R,2025-02-20
+P0124,11,Male,Urine,Klebsiella pneumoniae,Ciprofloxacin,S,2025-03-30
+P0125,53,Female,CSF,Acinetobacter baumannii,Amoxicillin,S,2025-08-29
+P0126,37,Female,Blood,Staphylococcus aureus,Ampicillin,S,2025-12-18
+P0127,81,Male,Wound Swab,Klebsiella pneumoniae,Gentamicin,R,2025-02-28
+P0128,35,Male,Blood,Acinetobacter baumannii,Ciprofloxacin,R,2025-01-31
+P0129,73,Female,Wound Swab,Klebsiella pneumoniae,Gentamicin,R,2025-03-05
+P0130,35,Female,Wound Swab,Pseudomonas aeruginosa,Gentamicin,R,2025-02-11
+P0131,42,Female,Blood,Acinetobacter baumannii,Ampicillin,R,2025-02-16
+P0132,3,Female,CSF,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-01-21
+P0133,57,Female,Urine,Klebsiella pneumoniae,Vancomycin,R,2025-10-27
+P0134,61,Female,Wound Swab,Pseudomonas aeruginosa,Vancomycin,R,2025-06-20
+P0135,43,Female,Wound Swab,Staphylococcus aureus,Amoxicillin,R,2025-05-28
+P0136,71,Male,Wound Swab,Enterococcus faecalis,Meropenem,R,2025-02-15
+P0137,52,Male,CSF,Staphylococcus aureus,Gentamicin,S,2025-08-25
+P0138,47,Female,Wound Swab,Pseudomonas aeruginosa,Ampicillin,S,2025-01-27
+P0139,37,Female,Wound Swab,Klebsiella pneumoniae,Gentamicin,R,2025-03-04
+P0140,21,Female,CSF,Escherichia coli,Piperacillin-Tazobactam,R,2025-01-08
+P0141,15,Female,Blood,Acinetobacter baumannii,Meropenem,S,2025-11-28
+P0142,38,Female,Wound Swab,Klebsiella pneumoniae,Vancomycin,R,2025-09-05
+P0143,19,Female,Urine,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-11-03
+P0144,36,Female,Sputum,Acinetobacter baumannii,Ceftriaxone,R,2025-09-17
+P0145,39,Female,Urine,Staphylococcus aureus,Ampicillin,S,2025-08-17
+P0146,71,Female,Wound Swab,Acinetobacter baumannii,Vancomycin,R,2025-06-14
+P0147,30,Female,Blood,Klebsiella pneumoniae,Ciprofloxacin,R,2025-06-12
+P0148,49,Female,Urine,Enterococcus faecalis,Vancomycin,R,2025-09-11
+P0149,76,Female,Blood,Escherichia coli,Ceftriaxone,I,2025-08-14
+P0150,2,Male,Wound Swab,Escherichia coli,Linezolid,R,2025-12-02
+P0151,34,Female,CSF,Klebsiella pneumoniae,Amoxicillin,R,2025-12-21
+P0152,87,Female,Sputum,Pseudomonas aeruginosa,Amoxicillin,R,2025-11-17
+P0153,5,Male,Urine,Enterococcus faecalis,Vancomycin,R,2025-11-20
+P0154,12,Female,Blood,Enterococcus faecalis,Gentamicin,R,2025-11-21
+P0155,89,Female,Blood,Enterococcus faecalis,Amoxicillin,S,2025-01-24
+P0156,48,Female,Urine,Staphylococcus aureus,Ampicillin,S,2025-05-06
+P0157,24,Male,Urine,Acinetobacter baumannii,Meropenem,R,2025-02-10
+P0158,31,Female,CSF,Acinetobacter baumannii,Meropenem,R,2025-03-15
+P0159,59,Female,Blood,Klebsiella pneumoniae,Vancomycin,R,2025-08-27
+P0160,57,Female,CSF,Staphylococcus aureus,Linezolid,S,2025-06-03
+P0161,59,Female,Urine,Enterococcus faecalis,Meropenem,I,2025-07-16
+P0162,74,Female,CSF,Pseudomonas aeruginosa,Amoxicillin,S,2025-06-01
+P0163,85,Female,Sputum,Enterococcus faecalis,Gentamicin,S,2025-01-05
+P0164,64,Female,Urine,Acinetobacter baumannii,Ampicillin,R,2025-11-07
+P0165,80,Female,Urine,Staphylococcus aureus,Ciprofloxacin,I,2025-11-18
+P0166,57,Male,CSF,Escherichia coli,Ampicillin,S,2025-07-06
+P0167,38,Female,Wound Swab,Enterococcus faecalis,Ceftriaxone,S,2025-03-31
+P0168,47,Female,Urine,Klebsiella pneumoniae,Ceftriaxone,R,2025-05-12
+P0169,44,Male,Wound Swab,Pseudomonas aeruginosa,Gentamicin,R,2025-02-08
+P0170,87,Female,CSF,Klebsiella pneumoniae,Ciprofloxacin,R,2025-07-07
+P0171,69,Male,Wound Swab,Escherichia coli,Meropenem,S,2025-07-08
+P0172,82,Female,Blood,Enterococcus faecalis,Gentamicin,S,2025-12-12
+P0173,72,Female,CSF,Klebsiella pneumoniae,Vancomycin,S,2025-04-24
+P0174,60,Female,Wound Swab,Enterococcus faecalis,Amoxicillin,I,2025-03-01
+P0175,39,Female,Blood,Klebsiella pneumoniae,Ampicillin,R,2025-02-19
+P0176,59,Female,CSF,Klebsiella pneumoniae,Linezolid,S,2025-08-03
+P0177,84,Male,Wound Swab,Acinetobacter baumannii,Ceftriaxone,R,2025-11-12
+P0178,48,Male,Wound Swab,Pseudomonas aeruginosa,Gentamicin,S,2025-08-16
+P0179,88,Female,CSF,Klebsiella pneumoniae,Amikacin,S,2025-11-27
+P0180,25,Male,Wound Swab,Staphylococcus aureus,Ampicillin,S,2025-02-16
+P0181,77,Male,Blood,Enterococcus faecalis,Ciprofloxacin,I,2025-06-20
+P0182,27,Male,CSF,Klebsiella pneumoniae,Ceftriaxone,R,2025-04-17
+P0183,30,Female,Urine,Acinetobacter baumannii,Ciprofloxacin,R,2025-11-02
+P0184,19,Male,CSF,Escherichia coli,Gentamicin,R,2025-05-09
+P0185,4,Male,Blood,Klebsiella pneumoniae,Amoxicillin,R,2025-07-03
+P0186,23,Female,Blood,Klebsiella pneumoniae,Piperacillin-Tazobactam,S,2025-03-06
+P0187,9,Female,Wound Swab,Enterococcus faecalis,Meropenem,S,2025-07-05
+P0188,65,Male,CSF,Acinetobacter baumannii,Piperacillin-Tazobactam,S,2025-01-23
+P0189,83,Male,Blood,Enterococcus faecalis,Linezolid,S,2025-09-03
+P0190,63,Female,Blood,Pseudomonas aeruginosa,Meropenem,R,2025-02-11
+P0191,17,Female,CSF,Staphylococcus aureus,Piperacillin-Tazobactam,S,2025-11-21
+P0192,49,Female,Wound Swab,Acinetobacter baumannii,Linezolid,R,2025-09-16
+P0193,90,Male,CSF,Acinetobacter baumannii,Meropenem,S,2025-04-21
+P0194,53,Female,Wound Swab,Pseudomonas aeruginosa,Vancomycin,R,2025-07-24
+P0195,41,Female,Sputum,Pseudomonas aeruginosa,Amoxicillin,I,2025-03-20
+P0196,11,Male,Wound Swab,Enterococcus faecalis,Vancomycin,S,2025-02-19
+P0197,72,Male,CSF,Enterococcus faecalis,Amikacin,R,2025-10-15
+P0198,53,Female,Wound Swab,Acinetobacter baumannii,Amikacin,R,2025-01-27
+P0199,14,Male,Urine,Staphylococcus aureus,Piperacillin-Tazobactam,S,2025-12-03
+P0200,45,Female,Blood,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-05-23
+P0201,72,Male,CSF,Acinetobacter baumannii,Ciprofloxacin,R,2025-12-03
+P0202,35,Female,Sputum,Enterococcus faecalis,Gentamicin,S,2025-06-29
+P0203,73,Female,Blood,Escherichia coli,Ceftriaxone,R,2025-03-14
+P0204,68,Male,Wound Swab,Enterococcus faecalis,Ampicillin,S,2025-08-03
+P0205,40,Female,CSF,Pseudomonas aeruginosa,Amikacin,S,2025-11-02
+P0206,80,Male,Blood,Escherichia coli,Ampicillin,S,2025-05-20
+P0207,57,Female,Sputum,Pseudomonas aeruginosa,Meropenem,R,2025-04-21
+P0208,15,Female,CSF,Acinetobacter baumannii,Amoxicillin,R,2025-09-07
+P0209,51,Male,Blood,Acinetobacter baumannii,Gentamicin,S,2025-04-15
+P0210,33,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,R,2025-03-03
+P0211,23,Male,Wound Swab,Escherichia coli,Vancomycin,R,2025-09-30
+P0212,86,Female,Blood,Enterococcus faecalis,Ciprofloxacin,S,2025-07-23
+P0213,59,Male,Sputum,Enterococcus faecalis,Ampicillin,S,2025-10-22
+P0214,82,Female,Sputum,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-02-28
+P0215,22,Female,Sputum,Pseudomonas aeruginosa,Ampicillin,R,2025-02-15
+P0216,76,Female,CSF,Pseudomonas aeruginosa,Amoxicillin,S,2025-02-10
+P0217,29,Female,Urine,Pseudomonas aeruginosa,Gentamicin,R,2025-02-09
+P0218,25,Female,Sputum,Acinetobacter baumannii,Amoxicillin,R,2025-11-27
+P0219,33,Male,Urine,Klebsiella pneumoniae,Ciprofloxacin,S,2025-11-05
+P0220,81,Female,Wound Swab,Klebsiella pneumoniae,Amoxicillin,S,2025-10-16
+P0221,73,Female,Sputum,Acinetobacter baumannii,Vancomycin,R,2025-03-19
+P0222,81,Female,Sputum,Pseudomonas aeruginosa,Amoxicillin,R,2025-10-30
+P0223,40,Female,Wound Swab,Escherichia coli,Amikacin,I,2025-01-20
+P0224,10,Male,CSF,Escherichia coli,Amikacin,R,2025-11-01
+P0225,71,Male,Wound Swab,Acinetobacter baumannii,Meropenem,R,2025-10-20
+P0226,61,Male,Blood,Enterococcus faecalis,Ciprofloxacin,S,2025-08-19
+P0227,11,Male,Blood,Escherichia coli,Amikacin,R,2025-05-07
+P0228,68,Male,Sputum,Enterococcus faecalis,Vancomycin,R,2025-07-10
+P0229,44,Male,Sputum,Staphylococcus aureus,Meropenem,S,2025-02-03
+P0230,50,Female,Sputum,Staphylococcus aureus,Amoxicillin,I,2025-12-03
+P0231,75,Male,Sputum,Acinetobacter baumannii,Ceftriaxone,R,2025-06-08
+P0232,11,Female,CSF,Enterococcus faecalis,Meropenem,S,2025-07-12
+P0233,86,Male,Wound Swab,Enterococcus faecalis,Amikacin,R,2025-09-18
+P0234,24,Male,Sputum,Staphylococcus aureus,Ampicillin,S,2025-09-06
+P0235,20,Male,Sputum,Klebsiella pneumoniae,Ciprofloxacin,R,2025-02-21
+P0236,68,Male,Sputum,Acinetobacter baumannii,Linezolid,R,2025-11-13
+P0237,21,Male,CSF,Klebsiella pneumoniae,Piperacillin-Tazobactam,I,2025-03-26
+P0238,47,Male,Wound Swab,Enterococcus faecalis,Vancomycin,S,2025-11-09
+P0239,31,Female,Wound Swab,Staphylococcus aureus,Vancomycin,S,2025-04-10
+P0240,60,Female,Wound Swab,Staphylococcus aureus,Piperacillin-Tazobactam,R,2025-09-15
+P0241,26,Male,Sputum,Acinetobacter baumannii,Meropenem,R,2025-01-27
+P0242,71,Male,CSF,Enterococcus faecalis,Vancomycin,R,2025-03-05
+P0243,35,Female,CSF,Staphylococcus aureus,Amoxicillin,R,2025-03-17
+P0244,29,Female,Sputum,Pseudomonas aeruginosa,Amoxicillin,R,2025-01-14
+P0245,48,Male,Wound Swab,Pseudomonas aeruginosa,Ampicillin,R,2025-02-11
+P0246,13,Female,Urine,Staphylococcus aureus,Ciprofloxacin,S,2025-03-12
+P0247,61,Male,Wound Swab,Escherichia coli,Gentamicin,R,2025-08-18
+P0248,3,Female,Urine,Acinetobacter baumannii,Ampicillin,R,2025-03-18
+P0249,15,Female,Urine,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-06-04
+P0250,82,Female,Blood,Escherichia coli,Ampicillin,S,2025-02-26
+P0251,81,Male,Urine,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-05-30
+P0252,31,Female,Urine,Pseudomonas aeruginosa,Ampicillin,R,2025-12-07
+P0253,47,Male,CSF,Enterococcus faecalis,Amoxicillin,S,2025-10-06
+P0254,50,Female,Blood,Acinetobacter baumannii,Linezolid,R,2025-11-22
+P0255,3,Female,Blood,Pseudomonas aeruginosa,Amikacin,I,2025-06-26
+P0256,43,Male,Blood,Klebsiella pneumoniae,Amoxicillin,R,2025-06-30
+P0257,23,Female,Wound Swab,Acinetobacter baumannii,Amikacin,R,2025-11-20
+P0258,59,Male,Sputum,Klebsiella pneumoniae,Ceftriaxone,S,2025-04-14
+P0259,41,Female,CSF,Escherichia coli,Ciprofloxacin,R,2025-07-23
+P0260,83,Male,Sputum,Acinetobacter baumannii,Vancomycin,I,2025-07-02
+P0261,48,Female,Wound Swab,Escherichia coli,Amikacin,S,2025-08-14
+P0262,64,Female,Sputum,Pseudomonas aeruginosa,Amikacin,R,2025-09-23
+P0263,11,Female,CSF,Staphylococcus aureus,Amoxicillin,R,2025-04-03
+P0264,11,Female,Sputum,Acinetobacter baumannii,Gentamicin,R,2025-06-06
+P0265,22,Female,Sputum,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-08-17
+P0266,56,Female,Blood,Escherichia coli,Amikacin,R,2025-02-08
+P0267,87,Male,Blood,Enterococcus faecalis,Meropenem,S,2025-03-15
+P0268,9,Male,Sputum,Acinetobacter baumannii,Vancomycin,S,2025-07-05
+P0269,20,Female,Sputum,Pseudomonas aeruginosa,Piperacillin-Tazobactam,S,2025-07-10
+P0270,68,Female,Wound Swab,Pseudomonas aeruginosa,Amoxicillin,R,2025-06-10
+P0271,15,Male,Urine,Enterococcus faecalis,Gentamicin,S,2025-09-13
+P0272,16,Female,Sputum,Acinetobacter baumannii,Meropenem,R,2025-12-27
+P0273,37,Female,Urine,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-03-04
+P0274,57,Male,Sputum,Klebsiella pneumoniae,Amoxicillin,R,2025-12-08
+P0275,38,Female,Urine,Staphylococcus aureus,Amoxicillin,S,2025-12-31
+P0276,66,Male,Blood,Enterococcus faecalis,Ceftriaxone,R,2025-04-13
+P0277,4,Female,CSF,Klebsiella pneumoniae,Ciprofloxacin,R,2025-10-21
+P0278,71,Male,CSF,Staphylococcus aureus,Vancomycin,R,2025-02-14
+P0279,62,Female,Wound Swab,Escherichia coli,Gentamicin,S,2025-10-22
+P0280,83,Male,Wound Swab,Escherichia coli,Ceftriaxone,R,2025-08-27
+P0281,71,Male,Urine,Enterococcus faecalis,Linezolid,S,2025-08-10
+P0282,67,Male,Sputum,Acinetobacter baumannii,Ampicillin,R,2025-03-26
+P0283,29,Female,CSF,Klebsiella pneumoniae,Amikacin,R,2025-05-26
+P0284,71,Female,Urine,Escherichia coli,Gentamicin,S,2025-11-17
+P0285,65,Male,CSF,Staphylococcus aureus,Piperacillin-Tazobactam,S,2025-10-25
+P0286,78,Female,CSF,Klebsiella pneumoniae,Ceftriaxone,R,2025-01-22
+P0287,83,Female,Urine,Escherichia coli,Amoxicillin,S,2025-10-20
+P0288,64,Female,Sputum,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-09-05
+P0289,10,Male,Urine,Klebsiella pneumoniae,Meropenem,S,2025-08-14
+P0290,44,Male,Sputum,Pseudomonas aeruginosa,Vancomycin,R,2025-06-13
+P0291,17,Female,CSF,Enterococcus faecalis,Amikacin,R,2025-10-15
+P0292,16,Female,Wound Swab,Escherichia coli,Amikacin,S,2025-05-07
+P0293,50,Female,Urine,Klebsiella pneumoniae,Amoxicillin,S,2025-03-23
+P0294,25,Male,Wound Swab,Staphylococcus aureus,Piperacillin-Tazobactam,R,2025-09-21
+P0295,64,Male,Blood,Pseudomonas aeruginosa,Vancomycin,R,2025-07-21
+P0296,28,Female,Blood,Acinetobacter baumannii,Vancomycin,R,2025-01-26
+P0297,84,Female,Sputum,Staphylococcus aureus,Vancomycin,I,2025-10-02
+P0298,34,Female,Wound Swab,Escherichia coli,Amoxicillin,S,2025-07-07
+P0299,72,Male,Sputum,Escherichia coli,Meropenem,S,2025-10-11
+P0300,58,Female,CSF,Staphylococcus aureus,Amoxicillin,S,2025-12-15
+P0301,13,Female,Sputum,Acinetobacter baumannii,Amoxicillin,S,2025-06-23
+P0302,26,Female,CSF,Acinetobacter baumannii,Amikacin,R,2025-01-21
+P0303,43,Female,CSF,Escherichia coli,Ampicillin,S,2025-08-22
+P0304,18,Female,CSF,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-06-13
+P0305,39,Female,CSF,Klebsiella pneumoniae,Meropenem,R,2025-09-18
+P0306,39,Female,Blood,Acinetobacter baumannii,Vancomycin,R,2025-07-08
+P0307,75,Female,Blood,Staphylococcus aureus,Amoxicillin,R,2025-11-02
+P0308,75,Male,Blood,Pseudomonas aeruginosa,Gentamicin,R,2025-10-26
+P0309,80,Female,Urine,Pseudomonas aeruginosa,Ceftriaxone,R,2025-12-15
+P0310,90,Male,Urine,Klebsiella pneumoniae,Ampicillin,R,2025-01-10
+P0311,53,Male,Wound Swab,Pseudomonas aeruginosa,Amikacin,R,2025-09-14
+P0312,8,Male,CSF,Acinetobacter baumannii,Vancomycin,R,2025-04-17
+P0313,62,Female,Sputum,Acinetobacter baumannii,Amikacin,R,2025-03-30
+P0314,46,Female,CSF,Pseudomonas aeruginosa,Linezolid,I,2025-09-05
+P0315,39,Male,Sputum,Klebsiella pneumoniae,Ciprofloxacin,S,2025-05-28
+P0316,63,Female,Wound Swab,Enterococcus faecalis,Ciprofloxacin,I,2025-06-28
+P0317,74,Female,Wound Swab,Acinetobacter baumannii,Gentamicin,I,2025-06-26
+P0318,11,Female,Wound Swab,Klebsiella pneumoniae,Gentamicin,S,2025-12-02
+P0319,69,Female,CSF,Staphylococcus aureus,Vancomycin,S,2025-12-23
+P0320,76,Male,Urine,Staphylococcus aureus,Ceftriaxone,S,2025-01-26
+P0321,30,Male,Blood,Enterococcus faecalis,Linezolid,S,2025-07-31
+P0322,18,Male,CSF,Staphylococcus aureus,Vancomycin,S,2025-03-22
+P0323,26,Female,Sputum,Pseudomonas aeruginosa,Vancomycin,R,2025-05-27
+P0324,12,Male,CSF,Enterococcus faecalis,Ampicillin,R,2025-01-20
+P0325,23,Male,Wound Swab,Klebsiella pneumoniae,Meropenem,R,2025-09-11
+P0326,2,Female,CSF,Klebsiella pneumoniae,Gentamicin,R,2025-11-05
+P0327,83,Female,Urine,Escherichia coli,Amikacin,S,2025-09-16
+P0328,15,Female,Urine,Pseudomonas aeruginosa,Gentamicin,S,2025-08-23
+P0329,2,Female,Sputum,Enterococcus faecalis,Gentamicin,R,2025-10-18
+P0330,82,Female,Wound Swab,Enterococcus faecalis,Ciprofloxacin,S,2025-09-21
+P0331,13,Male,Urine,Staphylococcus aureus,Amoxicillin,S,2025-09-02
+P0332,50,Male,Wound Swab,Staphylococcus aureus,Ciprofloxacin,S,2025-05-17
+P0333,74,Male,Sputum,Staphylococcus aureus,Gentamicin,I,2025-12-01
+P0334,16,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,S,2025-03-23
+P0335,40,Male,Sputum,Pseudomonas aeruginosa,Linezolid,R,2025-07-08
+P0336,18,Female,Urine,Acinetobacter baumannii,Ciprofloxacin,I,2025-08-21
+P0337,90,Female,CSF,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-12-07
+P0338,77,Male,CSF,Klebsiella pneumoniae,Ciprofloxacin,R,2025-08-17
+P0339,73,Male,Blood,Acinetobacter baumannii,Amikacin,S,2025-10-08
+P0340,20,Male,Sputum,Acinetobacter baumannii,Ciprofloxacin,R,2025-09-24
+P0341,75,Female,Blood,Pseudomonas aeruginosa,Amoxicillin,R,2025-09-19
+P0342,66,Female,Wound Swab,Pseudomonas aeruginosa,Ampicillin,R,2025-10-16
+P0343,40,Male,Wound Swab,Escherichia coli,Linezolid,I,2025-05-11
+P0344,6,Female,Sputum,Escherichia coli,Ciprofloxacin,R,2025-12-25
+P0345,9,Female,Blood,Escherichia coli,Linezolid,R,2025-05-27
+P0346,83,Female,Sputum,Pseudomonas aeruginosa,Ceftriaxone,R,2025-07-15
+P0347,88,Male,Sputum,Pseudomonas aeruginosa,Meropenem,R,2025-03-02
+P0348,17,Male,Blood,Klebsiella pneumoniae,Linezolid,I,2025-01-12
+P0349,70,Female,CSF,Staphylococcus aureus,Vancomycin,R,2025-07-14
+P0350,20,Female,Urine,Klebsiella pneumoniae,Ciprofloxacin,R,2025-02-27
+P0351,3,Male,Urine,Escherichia coli,Meropenem,R,2025-02-04
+P0352,77,Male,Urine,Escherichia coli,Piperacillin-Tazobactam,S,2025-01-23
+P0353,28,Male,Urine,Pseudomonas aeruginosa,Vancomycin,S,2025-09-15
+P0354,74,Female,CSF,Staphylococcus aureus,Ciprofloxacin,R,2025-11-03
+P0355,19,Male,Wound Swab,Enterococcus faecalis,Amikacin,S,2025-06-03
+P0356,76,Male,Wound Swab,Staphylococcus aureus,Ampicillin,I,2025-10-12
+P0357,83,Female,CSF,Pseudomonas aeruginosa,Ampicillin,R,2025-06-13
+P0358,39,Female,Urine,Enterococcus faecalis,Meropenem,S,2025-10-03
+P0359,39,Male,Wound Swab,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-01-30
+P0360,72,Male,Wound Swab,Acinetobacter baumannii,Meropenem,R,2025-05-05
+P0361,11,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,S,2025-02-17
+P0362,49,Male,Blood,Acinetobacter baumannii,Ciprofloxacin,S,2025-04-07
+P0363,27,Female,Sputum,Acinetobacter baumannii,Linezolid,I,2025-01-08
+P0364,16,Female,Urine,Klebsiella pneumoniae,Ciprofloxacin,R,2025-12-23
+P0365,31,Female,Sputum,Acinetobacter baumannii,Ciprofloxacin,R,2025-07-14
+P0366,40,Female,Sputum,Pseudomonas aeruginosa,Linezolid,R,2025-09-20
+P0367,61,Female,Urine,Pseudomonas aeruginosa,Vancomycin,S,2025-07-09
+P0368,29,Male,Blood,Staphylococcus aureus,Meropenem,S,2025-05-14
+P0369,54,Female,Urine,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-04-11
+P0370,32,Female,CSF,Staphylococcus aureus,Ciprofloxacin,S,2025-12-02
+P0371,63,Female,Wound Swab,Enterococcus faecalis,Amikacin,S,2025-03-28
+P0372,70,Female,Urine,Enterococcus faecalis,Amikacin,S,2025-10-05
+P0373,10,Male,Blood,Enterococcus faecalis,Ampicillin,S,2025-07-31
+P0374,20,Male,Urine,Klebsiella pneumoniae,Ciprofloxacin,S,2025-09-16
+P0375,82,Female,Wound Swab,Pseudomonas aeruginosa,Amikacin,S,2025-01-09
+P0376,2,Male,CSF,Escherichia coli,Linezolid,R,2025-05-21
+P0377,90,Female,Urine,Acinetobacter baumannii,Gentamicin,S,2025-02-24
+P0378,25,Female,Sputum,Escherichia coli,Linezolid,S,2025-05-17
+P0379,52,Female,CSF,Pseudomonas aeruginosa,Amoxicillin,R,2025-05-05
+P0380,11,Male,Blood,Enterococcus faecalis,Ciprofloxacin,S,2025-07-27
+P0381,8,Male,Urine,Pseudomonas aeruginosa,Meropenem,R,2025-02-12
+P0382,43,Male,CSF,Pseudomonas aeruginosa,Meropenem,R,2025-01-22
+P0383,89,Female,Sputum,Klebsiella pneumoniae,Ciprofloxacin,R,2025-01-24
+P0384,73,Male,Urine,Escherichia coli,Gentamicin,R,2025-06-11
+P0385,51,Male,Sputum,Escherichia coli,Ciprofloxacin,R,2025-03-25
+P0386,50,Female,Wound Swab,Acinetobacter baumannii,Ciprofloxacin,R,2025-03-13
+P0387,45,Male,Blood,Enterococcus faecalis,Amoxicillin,S,2025-08-12
+P0388,79,Female,Sputum,Klebsiella pneumoniae,Amoxicillin,S,2025-01-16
+P0389,58,Female,Urine,Enterococcus faecalis,Gentamicin,R,2025-07-02
+P0390,88,Female,Blood,Acinetobacter baumannii,Meropenem,R,2025-11-13
+P0391,11,Female,Urine,Staphylococcus aureus,Ciprofloxacin,R,2025-07-14
+P0392,41,Female,Blood,Enterococcus faecalis,Ceftriaxone,R,2025-02-16
+P0393,35,Male,Urine,Escherichia coli,Gentamicin,S,2025-02-14
+P0394,72,Female,Blood,Klebsiella pneumoniae,Meropenem,I,2025-01-14
+P0395,77,Female,Wound Swab,Escherichia coli,Amikacin,R,2025-01-07
+P0396,11,Male,CSF,Staphylococcus aureus,Meropenem,S,2025-09-24
+P0397,35,Female,Sputum,Klebsiella pneumoniae,Meropenem,S,2025-09-10
+P0398,36,Female,Sputum,Klebsiella pneumoniae,Amoxicillin,S,2025-09-05
+P0399,32,Female,CSF,Escherichia coli,Amikacin,S,2025-11-12
+P0400,39,Male,Wound Swab,Klebsiella pneumoniae,Vancomycin,S,2025-06-20
+P0401,43,Female,Sputum,Acinetobacter baumannii,Meropenem,R,2025-08-09
+P0402,42,Male,Wound Swab,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-06-10
+P0403,38,Female,CSF,Klebsiella pneumoniae,Meropenem,R,2025-05-05
+P0404,51,Female,Blood,Staphylococcus aureus,Meropenem,S,2025-10-16
+P0405,24,Male,Wound Swab,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-12-29
+P0406,89,Male,Wound Swab,Klebsiella pneumoniae,Vancomycin,R,2025-12-11
+P0407,31,Female,Urine,Pseudomonas aeruginosa,Ceftriaxone,R,2025-08-05
+P0408,77,Female,CSF,Pseudomonas aeruginosa,Amoxicillin,R,2025-07-25
+P0409,89,Female,CSF,Acinetobacter baumannii,Linezolid,R,2025-01-19
+P0410,11,Male,Urine,Staphylococcus aureus,Linezolid,I,2025-12-03
+P0411,79,Male,CSF,Enterococcus faecalis,Amikacin,S,2025-11-27
+P0412,43,Female,Blood,Enterococcus faecalis,Meropenem,R,2025-01-06
+P0413,67,Male,Wound Swab,Escherichia coli,Gentamicin,S,2025-07-11
+P0414,76,Male,Sputum,Pseudomonas aeruginosa,Vancomycin,R,2025-01-13
+P0415,11,Male,Urine,Pseudomonas aeruginosa,Amoxicillin,I,2025-06-28
+P0416,27,Female,Sputum,Staphylococcus aureus,Amikacin,S,2025-09-01
+P0417,58,Female,Blood,Escherichia coli,Vancomycin,R,2025-06-03
+P0418,44,Male,Urine,Escherichia coli,Amoxicillin,S,2025-05-05
+P0419,43,Female,Wound Swab,Acinetobacter baumannii,Ceftriaxone,R,2025-04-29
+P0420,85,Female,Wound Swab,Pseudomonas aeruginosa,Ceftriaxone,S,2025-01-15
+P0421,58,Female,Wound Swab,Enterococcus faecalis,Piperacillin-Tazobactam,R,2025-01-03
+P0422,9,Male,CSF,Enterococcus faecalis,Ciprofloxacin,S,2025-04-06
+P0423,15,Female,Wound Swab,Staphylococcus aureus,Amikacin,S,2025-09-28
+P0424,79,Female,CSF,Enterococcus faecalis,Amikacin,S,2025-02-28
+P0425,80,Male,Sputum,Staphylococcus aureus,Amikacin,R,2025-11-11
+P0426,41,Male,Urine,Acinetobacter baumannii,Amoxicillin,R,2025-06-06
+P0427,19,Female,Wound Swab,Escherichia coli,Ceftriaxone,S,2025-11-02
+P0428,24,Female,CSF,Klebsiella pneumoniae,Piperacillin-Tazobactam,I,2025-12-22
+P0429,63,Female,Urine,Enterococcus faecalis,Ceftriaxone,S,2025-04-06
+P0430,46,Male,Wound Swab,Staphylococcus aureus,Vancomycin,I,2025-03-11
+P0431,65,Female,Wound Swab,Klebsiella pneumoniae,Meropenem,R,2025-12-17
+P0432,57,Female,Urine,Pseudomonas aeruginosa,Meropenem,R,2025-02-12
+P0433,29,Female,Blood,Acinetobacter baumannii,Ampicillin,R,2025-05-21
+P0434,59,Female,CSF,Klebsiella pneumoniae,Linezolid,S,2025-09-19
+P0435,70,Female,CSF,Escherichia coli,Piperacillin-Tazobactam,S,2025-01-22
+P0436,55,Male,Urine,Enterococcus faecalis,Vancomycin,S,2025-06-02
+P0437,12,Female,Blood,Escherichia coli,Vancomycin,S,2025-05-02
+P0438,79,Female,Urine,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-11-12
+P0439,8,Female,CSF,Klebsiella pneumoniae,Ciprofloxacin,R,2025-05-24
+P0440,38,Female,CSF,Acinetobacter baumannii,Linezolid,S,2025-05-17
+P0441,53,Male,Sputum,Acinetobacter baumannii,Amoxicillin,S,2025-12-02
+P0442,42,Male,Wound Swab,Klebsiella pneumoniae,Ceftriaxone,S,2025-09-08
+P0443,81,Female,Wound Swab,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-08-20
+P0444,36,Female,Wound Swab,Escherichia coli,Amoxicillin,S,2025-09-07
+P0445,12,Female,Sputum,Staphylococcus aureus,Piperacillin-Tazobactam,S,2025-02-02
+P0446,55,Male,Wound Swab,Acinetobacter baumannii,Meropenem,I,2025-05-18
+P0447,74,Male,CSF,Staphylococcus aureus,Gentamicin,S,2025-09-06
+P0448,81,Female,Blood,Staphylococcus aureus,Ampicillin,S,2025-03-05
+P0449,55,Male,Urine,Klebsiella pneumoniae,Vancomycin,R,2025-11-29
+P0450,36,Male,Sputum,Staphylococcus aureus,Ceftriaxone,R,2025-05-09
+P0451,84,Male,Blood,Escherichia coli,Amikacin,R,2025-07-22
+P0452,30,Female,Blood,Enterococcus faecalis,Gentamicin,R,2025-12-27
+P0453,10,Male,CSF,Escherichia coli,Ampicillin,S,2025-04-26
+P0454,90,Female,Blood,Acinetobacter baumannii,Vancomycin,S,2025-08-05
+P0455,30,Female,Blood,Enterococcus faecalis,Ceftriaxone,S,2025-02-22
+P0456,39,Male,Wound Swab,Escherichia coli,Amikacin,S,2025-03-10
+P0457,73,Male,CSF,Enterococcus faecalis,Ceftriaxone,S,2025-11-29
+P0458,28,Male,Wound Swab,Klebsiella pneumoniae,Vancomycin,I,2025-11-12
+P0459,12,Male,Urine,Enterococcus faecalis,Vancomycin,R,2025-03-05
+P0460,55,Female,Urine,Acinetobacter baumannii,Meropenem,R,2025-05-07
+P0461,77,Female,Blood,Staphylococcus aureus,Amoxicillin,S,2025-12-04
+P0462,66,Male,Wound Swab,Staphylococcus aureus,Ciprofloxacin,S,2025-06-01
+P0463,31,Female,Wound Swab,Enterococcus faecalis,Ampicillin,R,2025-02-27
+P0464,10,Male,Sputum,Klebsiella pneumoniae,Vancomycin,R,2025-06-12
+P0465,73,Female,Sputum,Klebsiella pneumoniae,Meropenem,R,2025-10-07
+P0466,10,Male,CSF,Enterococcus faecalis,Ceftriaxone,R,2025-02-04
+P0467,8,Female,CSF,Escherichia coli,Gentamicin,S,2025-05-27
+P0468,55,Female,Blood,Enterococcus faecalis,Linezolid,R,2025-11-24
+P0469,36,Male,Sputum,Acinetobacter baumannii,Linezolid,R,2025-02-10
+P0470,20,Female,Wound Swab,Acinetobacter baumannii,Ciprofloxacin,R,2025-10-28
+P0471,56,Male,Blood,Enterococcus faecalis,Amoxicillin,S,2025-05-06
+P0472,79,Male,Sputum,Escherichia coli,Meropenem,S,2025-12-08
+P0473,18,Male,Urine,Enterococcus faecalis,Ceftriaxone,S,2025-09-12
+P0474,34,Male,Sputum,Staphylococcus aureus,Linezolid,S,2025-03-06
+P0475,16,Male,Sputum,Enterococcus faecalis,Gentamicin,R,2025-08-08
+P0476,74,Male,Wound Swab,Staphylococcus aureus,Linezolid,S,2025-08-22
+P0477,73,Male,Sputum,Acinetobacter baumannii,Amikacin,S,2025-03-22
+P0478,87,Male,Urine,Staphylococcus aureus,Amoxicillin,R,2025-09-18
+P0479,2,Male,Blood,Escherichia coli,Ampicillin,R,2025-08-30
+P0480,23,Male,CSF,Staphylococcus aureus,Meropenem,R,2025-12-02
+P0481,54,Female,Sputum,Pseudomonas aeruginosa,Ciprofloxacin,I,2025-02-09
+P0482,87,Male,Urine,Acinetobacter baumannii,Amikacin,S,2025-04-25
+P0483,9,Female,Sputum,Acinetobacter baumannii,Ampicillin,R,2025-06-09
+P0484,2,Female,Urine,Staphylococcus aureus,Amoxicillin,I,2025-05-30
+P0485,32,Female,Sputum,Acinetobacter baumannii,Gentamicin,R,2025-10-30
+P0486,70,Male,Urine,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-01-04
+P0487,45,Male,Sputum,Pseudomonas aeruginosa,Ampicillin,S,2025-01-01
+P0488,40,Male,Urine,Enterococcus faecalis,Meropenem,R,2025-09-29
+P0489,8,Male,Sputum,Klebsiella pneumoniae,Meropenem,R,2025-02-17
+P0490,67,Female,Sputum,Escherichia coli,Ciprofloxacin,R,2025-08-23
+P0491,65,Male,Wound Swab,Enterococcus faecalis,Amoxicillin,S,2025-02-08
+P0492,85,Male,Urine,Acinetobacter baumannii,Piperacillin-Tazobactam,S,2025-05-30
+P0493,51,Female,Sputum,Staphylococcus aureus,Amikacin,R,2025-08-20
+P0494,26,Male,CSF,Staphylococcus aureus,Ciprofloxacin,S,2025-02-25
+P0495,60,Female,Wound Swab,Klebsiella pneumoniae,Amoxicillin,S,2025-03-03
+P0496,27,Female,Sputum,Acinetobacter baumannii,Amikacin,R,2025-08-26
+P0497,88,Female,CSF,Staphylococcus aureus,Amoxicillin,S,2025-01-21
+P0498,32,Female,Wound Swab,Klebsiella pneumoniae,Amikacin,S,2025-09-20
+P0499,23,Male,Wound Swab,Escherichia coli,Gentamicin,S,2025-08-20
+P0500,60,Male,Urine,Acinetobacter baumannii,Linezolid,I,2025-03-04
+P0501,29,Male,Urine,Escherichia coli,Ampicillin,R,2025-07-25
+P0502,34,Male,Blood,Staphylococcus aureus,Amoxicillin,I,2025-02-03
+P0503,12,Female,Blood,Klebsiella pneumoniae,Vancomycin,R,2025-01-22
+P0504,74,Female,Wound Swab,Pseudomonas aeruginosa,Ampicillin,S,2025-09-12
+P0505,23,Female,Urine,Escherichia coli,Meropenem,R,2025-04-06
+P0506,20,Male,CSF,Staphylococcus aureus,Gentamicin,S,2025-11-14
+P0507,64,Female,CSF,Acinetobacter baumannii,Ciprofloxacin,R,2025-09-03
+P0508,18,Female,Urine,Escherichia coli,Amoxicillin,S,2025-11-26
+P0509,70,Male,Wound Swab,Acinetobacter baumannii,Ciprofloxacin,R,2025-07-03
+P0510,45,Female,Wound Swab,Pseudomonas aeruginosa,Linezolid,R,2025-05-19
+P0511,29,Male,Sputum,Klebsiella pneumoniae,Ampicillin,S,2025-01-30
+P0512,75,Male,Urine,Pseudomonas aeruginosa,Linezolid,R,2025-02-21
+P0513,8,Male,CSF,Klebsiella pneumoniae,Ciprofloxacin,S,2025-07-18
+P0514,76,Female,Sputum,Staphylococcus aureus,Ceftriaxone,S,2025-10-30
+P0515,73,Male,CSF,Escherichia coli,Amikacin,R,2025-04-07
+P0516,63,Male,Blood,Pseudomonas aeruginosa,Linezolid,I,2025-01-29
+P0517,68,Female,Blood,Klebsiella pneumoniae,Piperacillin-Tazobactam,S,2025-06-19
+P0518,44,Male,Sputum,Acinetobacter baumannii,Ciprofloxacin,R,2025-01-31
+P0519,19,Male,CSF,Escherichia coli,Ceftriaxone,R,2025-07-06
+P0520,85,Female,CSF,Escherichia coli,Amikacin,R,2025-02-21
+P0521,21,Female,Wound Swab,Staphylococcus aureus,Gentamicin,S,2025-11-29
+P0522,72,Female,Urine,Staphylococcus aureus,Ceftriaxone,R,2025-12-07
+P0523,89,Female,Urine,Acinetobacter baumannii,Ceftriaxone,R,2025-04-01
+P0524,74,Female,CSF,Enterococcus faecalis,Ampicillin,R,2025-01-17
+P0525,79,Male,CSF,Klebsiella pneumoniae,Piperacillin-Tazobactam,S,2025-02-23
+P0526,10,Male,Sputum,Pseudomonas aeruginosa,Ceftriaxone,I,2025-06-13
+P0527,86,Female,Wound Swab,Klebsiella pneumoniae,Amoxicillin,R,2025-01-06
+P0528,9,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,S,2025-02-25
+P0529,57,Female,Urine,Enterococcus faecalis,Ampicillin,S,2025-07-31
+P0530,49,Male,Wound Swab,Pseudomonas aeruginosa,Meropenem,R,2025-10-23
+P0531,10,Male,Sputum,Enterococcus faecalis,Ciprofloxacin,S,2025-01-11
+P0532,10,Female,Urine,Staphylococcus aureus,Gentamicin,R,2025-07-12
+P0533,12,Female,CSF,Klebsiella pneumoniae,Amoxicillin,R,2025-11-11
+P0534,84,Male,CSF,Pseudomonas aeruginosa,Ampicillin,R,2025-08-11
+P0535,27,Male,Wound Swab,Klebsiella pneumoniae,Ampicillin,S,2025-12-23
+P0536,37,Female,Urine,Acinetobacter baumannii,Linezolid,I,2025-02-19
+P0537,63,Male,Blood,Escherichia coli,Meropenem,R,2025-07-04
+P0538,85,Female,Urine,Escherichia coli,Meropenem,S,2025-02-19
+P0539,38,Male,Wound Swab,Escherichia coli,Ciprofloxacin,S,2025-03-01
+P0540,85,Female,Blood,Staphylococcus aureus,Meropenem,S,2025-11-25
+P0541,49,Female,Urine,Acinetobacter baumannii,Meropenem,S,2025-08-17
+P0542,34,Male,Sputum,Escherichia coli,Gentamicin,S,2025-10-16
+P0543,86,Male,Blood,Escherichia coli,Ceftriaxone,R,2025-12-09
+P0544,76,Male,CSF,Staphylococcus aureus,Linezolid,S,2025-02-01
+P0545,69,Female,CSF,Pseudomonas aeruginosa,Linezolid,R,2025-05-01
+P0546,5,Male,Blood,Pseudomonas aeruginosa,Gentamicin,S,2025-08-18
+P0547,25,Male,Blood,Klebsiella pneumoniae,Ceftriaxone,R,2025-08-05
+P0548,81,Male,CSF,Escherichia coli,Meropenem,S,2025-05-13
+P0549,72,Female,CSF,Staphylococcus aureus,Amoxicillin,S,2025-06-16
+P0550,2,Female,Blood,Staphylococcus aureus,Linezolid,S,2025-08-01
+P0551,75,Male,Blood,Klebsiella pneumoniae,Ceftriaxone,R,2025-10-16
+P0552,45,Female,Sputum,Escherichia coli,Gentamicin,R,2025-07-16
+P0553,61,Male,Urine,Enterococcus faecalis,Vancomycin,S,2025-05-22
+P0554,88,Female,Blood,Pseudomonas aeruginosa,Ceftriaxone,R,2025-07-22
+P0555,61,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,S,2025-01-11
+P0556,63,Male,Urine,Staphylococcus aureus,Gentamicin,S,2025-03-10
+P0557,42,Female,Wound Swab,Staphylococcus aureus,Vancomycin,R,2025-11-06
+P0558,28,Female,Wound Swab,Enterococcus faecalis,Amoxicillin,S,2025-09-22
+P0559,21,Male,Sputum,Staphylococcus aureus,Ampicillin,S,2025-12-30
+P0560,68,Male,Urine,Acinetobacter baumannii,Meropenem,S,2025-04-09
+P0561,59,Male,Sputum,Klebsiella pneumoniae,Ampicillin,S,2025-12-27
+P0562,60,Female,Blood,Klebsiella pneumoniae,Gentamicin,I,2025-12-15
+P0563,77,Female,Urine,Escherichia coli,Ciprofloxacin,S,2025-08-31
+P0564,21,Female,Blood,Acinetobacter baumannii,Linezolid,R,2025-05-26
+P0565,74,Male,Urine,Escherichia coli,Meropenem,S,2025-11-28
+P0566,53,Male,Blood,Klebsiella pneumoniae,Ciprofloxacin,S,2025-08-31
+P0567,2,Male,Sputum,Klebsiella pneumoniae,Ceftriaxone,R,2025-11-08
+P0568,49,Female,Wound Swab,Staphylococcus aureus,Gentamicin,S,2025-05-10
+P0569,67,Female,CSF,Klebsiella pneumoniae,Vancomycin,S,2025-02-22
+P0570,48,Female,Sputum,Escherichia coli,Linezolid,R,2025-12-17
+P0571,36,Female,Sputum,Escherichia coli,Vancomycin,S,2025-05-14
+P0572,67,Male,Blood,Enterococcus faecalis,Gentamicin,S,2025-11-04
+P0573,4,Female,Sputum,Pseudomonas aeruginosa,Amikacin,R,2025-05-13
+P0574,5,Male,Sputum,Pseudomonas aeruginosa,Meropenem,R,2025-04-24
+P0575,61,Female,CSF,Enterococcus faecalis,Linezolid,I,2025-06-03
+P0576,13,Female,Urine,Klebsiella pneumoniae,Linezolid,S,2025-05-13
+P0577,24,Female,Blood,Enterococcus faecalis,Linezolid,R,2025-04-24
+P0578,40,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,R,2025-07-10
+P0579,16,Female,Blood,Staphylococcus aureus,Piperacillin-Tazobactam,S,2025-11-21
+P0580,10,Female,Urine,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-09-14
+P0581,53,Male,Urine,Escherichia coli,Meropenem,I,2025-03-12
+P0582,73,Female,Urine,Klebsiella pneumoniae,Amikacin,I,2025-06-11
+P0583,63,Female,Urine,Enterococcus faecalis,Ceftriaxone,R,2025-06-10
+P0584,36,Male,Urine,Enterococcus faecalis,Ampicillin,S,2025-10-23
+P0585,12,Male,CSF,Klebsiella pneumoniae,Vancomycin,R,2025-08-11
+P0586,62,Female,Blood,Enterococcus faecalis,Meropenem,S,2025-01-20
+P0587,2,Female,CSF,Acinetobacter baumannii,Ciprofloxacin,R,2025-04-08
+P0588,32,Male,Sputum,Escherichia coli,Ampicillin,R,2025-06-09
+P0589,76,Female,Urine,Klebsiella pneumoniae,Amoxicillin,I,2025-02-03
+P0590,59,Female,Wound Swab,Escherichia coli,Gentamicin,R,2025-12-18
+P0591,63,Female,Urine,Klebsiella pneumoniae,Amikacin,R,2025-03-26
+P0592,17,Male,Blood,Pseudomonas aeruginosa,Ampicillin,S,2025-10-29
+P0593,84,Male,Wound Swab,Acinetobacter baumannii,Ceftriaxone,S,2025-11-24
+P0594,77,Male,Blood,Staphylococcus aureus,Linezolid,I,2025-12-01
+P0595,54,Female,Wound Swab,Escherichia coli,Ampicillin,R,2025-03-05
+P0596,20,Male,Blood,Acinetobacter baumannii,Gentamicin,R,2025-06-04
+P0597,35,Male,Wound Swab,Pseudomonas aeruginosa,Amoxicillin,R,2025-02-23
+P0598,15,Male,Wound Swab,Acinetobacter baumannii,Piperacillin-Tazobactam,S,2025-04-12
+P0599,67,Male,Sputum,Acinetobacter baumannii,Ciprofloxacin,R,2025-12-27
+P0600,71,Female,Urine,Pseudomonas aeruginosa,Gentamicin,S,2025-12-19
+P0601,2,Male,Blood,Pseudomonas aeruginosa,Amikacin,S,2025-10-21
+P0602,12,Male,Blood,Enterococcus faecalis,Vancomycin,S,2025-05-12
+P0603,38,Female,Wound Swab,Enterococcus faecalis,Ciprofloxacin,S,2025-01-26
+P0604,38,Female,Sputum,Escherichia coli,Ceftriaxone,R,2025-08-07
+P0605,6,Male,Urine,Enterococcus faecalis,Amoxicillin,S,2025-12-06
+P0606,57,Female,Blood,Enterococcus faecalis,Ceftriaxone,S,2025-07-10
+P0607,52,Female,Sputum,Staphylococcus aureus,Ceftriaxone,S,2025-07-17
+P0608,84,Male,Blood,Enterococcus faecalis,Vancomycin,R,2025-03-09
+P0609,21,Male,Wound Swab,Enterococcus faecalis,Ampicillin,R,2025-10-30
+P0610,24,Female,Sputum,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-11-10
+P0611,63,Male,Wound Swab,Escherichia coli,Ceftriaxone,I,2025-08-14
+P0612,41,Male,CSF,Escherichia coli,Amoxicillin,S,2025-10-23
+P0613,86,Female,CSF,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-09-25
+P0614,85,Male,Wound Swab,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-06-27
+P0615,72,Male,Blood,Enterococcus faecalis,Meropenem,S,2025-11-26
+P0616,64,Male,Blood,Klebsiella pneumoniae,Linezolid,R,2025-09-09
+P0617,36,Male,CSF,Staphylococcus aureus,Ciprofloxacin,S,2025-04-25
+P0618,31,Male,Wound Swab,Acinetobacter baumannii,Meropenem,R,2025-08-16
+P0619,64,Female,Sputum,Acinetobacter baumannii,Vancomycin,S,2025-03-02
+P0620,53,Male,CSF,Pseudomonas aeruginosa,Ampicillin,S,2025-10-09
+P0621,80,Female,CSF,Escherichia coli,Amoxicillin,R,2025-10-15
+P0622,47,Male,Urine,Klebsiella pneumoniae,Vancomycin,R,2025-08-21
+P0623,77,Female,Sputum,Staphylococcus aureus,Linezolid,R,2025-08-20
+P0624,29,Male,Sputum,Escherichia coli,Amoxicillin,R,2025-07-01
+P0625,48,Male,Blood,Enterococcus faecalis,Gentamicin,S,2025-03-26
+P0626,53,Male,Sputum,Pseudomonas aeruginosa,Ceftriaxone,R,2025-11-09
+P0627,51,Male,Wound Swab,Klebsiella pneumoniae,Ciprofloxacin,S,2025-04-08
+P0628,54,Male,CSF,Enterococcus faecalis,Amikacin,S,2025-03-05
+P0629,65,Male,Wound Swab,Pseudomonas aeruginosa,Vancomycin,R,2025-01-03
+P0630,56,Female,CSF,Acinetobacter baumannii,Ampicillin,R,2025-04-01
+P0631,17,Male,Wound Swab,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-12-03
+P0632,65,Female,Wound Swab,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-11-08
+P0633,44,Female,Wound Swab,Enterococcus faecalis,Ciprofloxacin,S,2025-03-10
+P0634,66,Female,CSF,Klebsiella pneumoniae,Meropenem,R,2025-06-10
+P0635,26,Male,CSF,Enterococcus faecalis,Linezolid,I,2025-05-29
+P0636,17,Male,CSF,Enterococcus faecalis,Amikacin,R,2025-10-05
+P0637,46,Female,CSF,Enterococcus faecalis,Amikacin,R,2025-10-20
+P0638,69,Female,Wound Swab,Enterococcus faecalis,Meropenem,I,2025-01-07
+P0639,19,Male,Blood,Acinetobacter baumannii,Amoxicillin,S,2025-04-13
+P0640,88,Female,Urine,Staphylococcus aureus,Ceftriaxone,R,2025-02-01
+P0641,70,Male,Sputum,Enterococcus faecalis,Gentamicin,S,2025-08-20
+P0642,72,Male,CSF,Escherichia coli,Piperacillin-Tazobactam,R,2025-07-19
+P0643,90,Female,Blood,Klebsiella pneumoniae,Linezolid,R,2025-07-15
+P0644,88,Female,CSF,Pseudomonas aeruginosa,Meropenem,R,2025-01-28
+P0645,57,Male,Sputum,Escherichia coli,Gentamicin,S,2025-10-29
+P0646,25,Female,Wound Swab,Acinetobacter baumannii,Piperacillin-Tazobactam,S,2025-04-01
+P0647,23,Male,Wound Swab,Enterococcus faecalis,Amoxicillin,S,2025-01-21
+P0648,17,Male,CSF,Pseudomonas aeruginosa,Gentamicin,R,2025-05-11
+P0649,20,Male,Urine,Escherichia coli,Amikacin,I,2025-06-15
+P0650,81,Female,Wound Swab,Acinetobacter baumannii,Ampicillin,R,2025-10-21
+P0651,41,Male,Urine,Acinetobacter baumannii,Amikacin,S,2025-09-24
+P0652,70,Female,Blood,Escherichia coli,Linezolid,S,2025-06-28
+P0653,43,Female,Sputum,Klebsiella pneumoniae,Ciprofloxacin,R,2025-04-22
+P0654,72,Male,Blood,Acinetobacter baumannii,Linezolid,R,2025-12-09
+P0655,83,Male,Blood,Staphylococcus aureus,Vancomycin,S,2025-12-16
+P0656,15,Female,Sputum,Staphylococcus aureus,Meropenem,R,2025-10-04
+P0657,67,Female,CSF,Enterococcus faecalis,Gentamicin,S,2025-09-18
+P0658,84,Male,Sputum,Pseudomonas aeruginosa,Vancomycin,S,2025-09-21
+P0659,69,Male,Blood,Escherichia coli,Amoxicillin,S,2025-04-18
+P0660,55,Male,Urine,Enterococcus faecalis,Ciprofloxacin,R,2025-10-03
+P0661,10,Male,Blood,Enterococcus faecalis,Meropenem,I,2025-08-24
+P0662,10,Male,Urine,Enterococcus faecalis,Amikacin,S,2025-05-09
+P0663,30,Female,Wound Swab,Acinetobacter baumannii,Amoxicillin,R,2025-07-18
+P0664,3,Female,Blood,Pseudomonas aeruginosa,Meropenem,R,2025-10-01
+P0665,75,Male,Blood,Escherichia coli,Piperacillin-Tazobactam,S,2025-07-03
+P0666,88,Female,CSF,Acinetobacter baumannii,Amoxicillin,I,2025-02-14
+P0667,85,Male,Wound Swab,Staphylococcus aureus,Vancomycin,S,2025-03-22
+P0668,51,Female,Urine,Acinetobacter baumannii,Ciprofloxacin,S,2025-06-02
+P0669,2,Male,Blood,Enterococcus faecalis,Amikacin,R,2025-01-22
+P0670,69,Male,Sputum,Escherichia coli,Piperacillin-Tazobactam,R,2025-04-18
+P0671,83,Male,Urine,Enterococcus faecalis,Amikacin,S,2025-04-05
+P0672,25,Male,Urine,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-12-10
+P0673,71,Female,CSF,Acinetobacter baumannii,Ampicillin,R,2025-02-07
+P0674,26,Female,Sputum,Staphylococcus aureus,Amoxicillin,S,2025-07-02
+P0675,80,Male,Urine,Klebsiella pneumoniae,Ciprofloxacin,S,2025-06-12
+P0676,85,Female,CSF,Pseudomonas aeruginosa,Vancomycin,I,2025-03-20
+P0677,41,Female,Urine,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-01-03
+P0678,83,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,R,2025-07-04
+P0679,60,Female,Sputum,Klebsiella pneumoniae,Amikacin,R,2025-06-06
+P0680,83,Male,Sputum,Pseudomonas aeruginosa,Linezolid,S,2025-03-13
+P0681,81,Male,Blood,Acinetobacter baumannii,Ciprofloxacin,I,2025-01-10
+P0682,75,Female,CSF,Acinetobacter baumannii,Ampicillin,R,2025-04-19
+P0683,70,Female,Urine,Escherichia coli,Linezolid,S,2025-07-07
+P0684,76,Female,Urine,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-08-26
+P0685,47,Male,Urine,Acinetobacter baumannii,Linezolid,S,2025-11-11
+P0686,18,Female,Urine,Enterococcus faecalis,Ceftriaxone,R,2025-04-02
+P0687,19,Female,Sputum,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-01-21
+P0688,34,Female,Urine,Klebsiella pneumoniae,Vancomycin,S,2025-01-22
+P0689,47,Female,Wound Swab,Enterococcus faecalis,Ciprofloxacin,S,2025-08-21
+P0690,42,Male,CSF,Escherichia coli,Ampicillin,R,2025-11-21
+P0691,73,Male,Wound Swab,Staphylococcus aureus,Gentamicin,I,2025-12-01
+P0692,10,Female,Wound Swab,Pseudomonas aeruginosa,Amikacin,R,2025-04-25
+P0693,45,Female,Wound Swab,Acinetobacter baumannii,Meropenem,R,2025-11-06
+P0694,57,Male,Urine,Escherichia coli,Linezolid,R,2025-02-09
+P0695,24,Male,Sputum,Acinetobacter baumannii,Gentamicin,I,2025-11-05
+P0696,54,Female,Blood,Enterococcus faecalis,Amoxicillin,I,2025-09-04
+P0697,76,Male,Wound Swab,Enterococcus faecalis,Vancomycin,S,2025-01-12
+P0698,76,Male,Urine,Klebsiella pneumoniae,Ampicillin,S,2025-11-19
+P0699,19,Male,Urine,Acinetobacter baumannii,Ampicillin,R,2025-05-13
+P0700,77,Male,Sputum,Klebsiella pneumoniae,Linezolid,R,2025-02-13
+P0701,61,Female,Urine,Klebsiella pneumoniae,Vancomycin,R,2025-04-23
+P0702,75,Male,CSF,Pseudomonas aeruginosa,Piperacillin-Tazobactam,S,2025-12-04
+P0703,88,Female,Wound Swab,Acinetobacter baumannii,Gentamicin,S,2025-11-02
+P0704,50,Male,Blood,Acinetobacter baumannii,Amoxicillin,I,2025-01-09
+P0705,65,Female,Urine,Klebsiella pneumoniae,Linezolid,R,2025-11-07
+P0706,79,Male,CSF,Escherichia coli,Ceftriaxone,I,2025-09-15
+P0707,17,Male,Wound Swab,Escherichia coli,Amoxicillin,I,2025-09-25
+P0708,90,Female,Urine,Pseudomonas aeruginosa,Amikacin,R,2025-09-04
+P0709,90,Male,Wound Swab,Pseudomonas aeruginosa,Amikacin,R,2025-03-10
+P0710,11,Female,CSF,Staphylococcus aureus,Vancomycin,R,2025-10-06
+P0711,1,Male,CSF,Pseudomonas aeruginosa,Gentamicin,S,2025-01-04
+P0712,41,Female,Sputum,Pseudomonas aeruginosa,Ciprofloxacin,R,2025-02-24
+P0713,33,Female,CSF,Klebsiella pneumoniae,Meropenem,R,2025-08-05
+P0714,88,Female,Urine,Acinetobacter baumannii,Amikacin,R,2025-07-31
+P0715,48,Female,Sputum,Acinetobacter baumannii,Linezolid,R,2025-06-07
+P0716,51,Male,Blood,Acinetobacter baumannii,Amikacin,R,2025-04-28
+P0717,66,Female,Sputum,Pseudomonas aeruginosa,Ceftriaxone,S,2025-10-09
+P0718,82,Male,Blood,Acinetobacter baumannii,Ampicillin,S,2025-03-16
+P0719,9,Female,Urine,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-07-09
+P0720,50,Female,CSF,Escherichia coli,Piperacillin-Tazobactam,S,2025-12-02
+P0721,77,Male,Urine,Acinetobacter baumannii,Gentamicin,R,2025-11-24
+P0722,85,Female,Urine,Pseudomonas aeruginosa,Vancomycin,S,2025-01-18
+P0723,30,Male,Blood,Acinetobacter baumannii,Linezolid,R,2025-07-04
+P0724,12,Female,Wound Swab,Klebsiella pneumoniae,Ampicillin,R,2025-06-30
+P0725,26,Male,Blood,Enterococcus faecalis,Meropenem,S,2025-02-16
+P0726,72,Female,Sputum,Acinetobacter baumannii,Gentamicin,R,2025-05-22
+P0727,59,Female,CSF,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-01-03
+P0728,14,Male,CSF,Staphylococcus aureus,Ceftriaxone,S,2025-05-31
+P0729,33,Female,Wound Swab,Staphylococcus aureus,Amoxicillin,R,2025-07-13
+P0730,44,Female,Wound Swab,Acinetobacter baumannii,Vancomycin,R,2025-10-28
+P0731,9,Female,Urine,Escherichia coli,Vancomycin,S,2025-12-13
+P0732,53,Female,CSF,Enterococcus faecalis,Ciprofloxacin,R,2025-10-02
+P0733,12,Female,Sputum,Escherichia coli,Gentamicin,S,2025-02-08
+P0734,46,Male,CSF,Acinetobacter baumannii,Ceftriaxone,R,2025-05-18
+P0735,26,Male,Urine,Klebsiella pneumoniae,Ciprofloxacin,R,2025-05-16
+P0736,32,Female,Urine,Klebsiella pneumoniae,Ciprofloxacin,S,2025-02-24
+P0737,85,Female,CSF,Escherichia coli,Amoxicillin,R,2025-01-04
+P0738,48,Female,Wound Swab,Acinetobacter baumannii,Ampicillin,R,2025-10-22
+P0739,66,Female,Wound Swab,Staphylococcus aureus,Vancomycin,S,2025-04-24
+P0740,55,Female,CSF,Acinetobacter baumannii,Ceftriaxone,S,2025-01-17
+P0741,88,Male,Wound Swab,Acinetobacter baumannii,Amikacin,R,2025-03-03
+P0742,89,Male,Blood,Enterococcus faecalis,Linezolid,S,2025-12-12
+P0743,42,Female,CSF,Klebsiella pneumoniae,Meropenem,R,2025-05-13
+P0744,35,Female,CSF,Klebsiella pneumoniae,Linezolid,S,2025-06-25
+P0745,27,Female,Sputum,Staphylococcus aureus,Ceftriaxone,S,2025-07-06
+P0746,74,Male,CSF,Pseudomonas aeruginosa,Gentamicin,R,2025-12-18
+P0747,31,Female,Wound Swab,Klebsiella pneumoniae,Amoxicillin,R,2025-04-11
+P0748,2,Male,Wound Swab,Klebsiella pneumoniae,Ceftriaxone,R,2025-09-13
+P0749,41,Female,Sputum,Klebsiella pneumoniae,Linezolid,R,2025-05-09
+P0750,13,Male,Blood,Acinetobacter baumannii,Piperacillin-Tazobactam,S,2025-04-21
+P0751,13,Female,Sputum,Staphylococcus aureus,Vancomycin,R,2025-05-14
+P0752,33,Female,Blood,Staphylococcus aureus,Amikacin,I,2025-07-30
+P0753,78,Male,CSF,Escherichia coli,Amikacin,R,2025-10-22
+P0754,37,Female,Sputum,Enterococcus faecalis,Linezolid,S,2025-12-11
+P0755,58,Male,Wound Swab,Acinetobacter baumannii,Vancomycin,R,2025-11-11
+P0756,19,Male,Sputum,Staphylococcus aureus,Vancomycin,I,2025-08-04
+P0757,10,Male,Urine,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-06-25
+P0758,38,Female,CSF,Klebsiella pneumoniae,Amikacin,S,2025-11-27
+P0759,47,Female,Wound Swab,Pseudomonas aeruginosa,Gentamicin,R,2025-03-27
+P0760,31,Female,Blood,Klebsiella pneumoniae,Ampicillin,S,2025-04-18
+P0761,9,Female,CSF,Klebsiella pneumoniae,Meropenem,S,2025-01-28
+P0762,11,Male,Sputum,Escherichia coli,Meropenem,I,2025-11-13
+P0763,50,Female,Urine,Klebsiella pneumoniae,Amoxicillin,R,2025-05-07
+P0764,17,Male,CSF,Enterococcus faecalis,Gentamicin,S,2025-03-29
+P0765,42,Female,Wound Swab,Escherichia coli,Ampicillin,R,2025-10-04
+P0766,90,Male,CSF,Staphylococcus aureus,Linezolid,S,2025-11-02
+P0767,82,Female,Sputum,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-09-04
+P0768,57,Female,Sputum,Acinetobacter baumannii,Ciprofloxacin,R,2025-07-31
+P0769,1,Male,Sputum,Staphylococcus aureus,Ceftriaxone,S,2025-05-27
+P0770,63,Female,Sputum,Pseudomonas aeruginosa,Linezolid,S,2025-01-05
+P0771,1,Female,Urine,Pseudomonas aeruginosa,Gentamicin,R,2025-07-30
+P0772,21,Female,Wound Swab,Acinetobacter baumannii,Meropenem,R,2025-04-23
+P0773,31,Female,Sputum,Staphylococcus aureus,Amoxicillin,S,2025-11-29
+P0774,53,Male,Blood,Enterococcus faecalis,Linezolid,R,2025-04-04
+P0775,59,Female,Sputum,Klebsiella pneumoniae,Gentamicin,S,2025-12-25
+P0776,3,Male,Blood,Acinetobacter baumannii,Vancomycin,S,2025-10-01
+P0777,37,Female,Urine,Escherichia coli,Ceftriaxone,R,2025-08-13
+P0778,20,Male,Wound Swab,Enterococcus faecalis,Ampicillin,S,2025-04-22
+P0779,64,Female,Wound Swab,Staphylococcus aureus,Meropenem,S,2025-12-23
+P0780,19,Male,Sputum,Escherichia coli,Amikacin,S,2025-07-20
+P0781,25,Female,Wound Swab,Escherichia coli,Linezolid,I,2025-01-07
+P0782,57,Male,Blood,Escherichia coli,Ciprofloxacin,S,2025-04-12
+P0783,27,Female,Wound Swab,Pseudomonas aeruginosa,Amoxicillin,R,2025-12-15
+P0784,6,Male,Sputum,Staphylococcus aureus,Amikacin,S,2025-09-04
+P0785,7,Male,Blood,Enterococcus faecalis,Gentamicin,S,2025-05-01
+P0786,22,Female,CSF,Enterococcus faecalis,Meropenem,S,2025-03-03
+P0787,6,Female,CSF,Pseudomonas aeruginosa,Ciprofloxacin,S,2025-03-21
+P0788,64,Male,CSF,Staphylococcus aureus,Amoxicillin,S,2025-06-23
+P0789,83,Male,CSF,Enterococcus faecalis,Ampicillin,S,2025-02-24
+P0790,72,Female,Wound Swab,Klebsiella pneumoniae,Vancomycin,S,2025-04-09
+P0791,18,Female,Blood,Escherichia coli,Meropenem,S,2025-09-06
+P0792,70,Female,Urine,Enterococcus faecalis,Vancomycin,S,2025-10-18
+P0793,60,Female,CSF,Klebsiella pneumoniae,Linezolid,S,2025-10-11
+P0794,58,Female,Sputum,Klebsiella pneumoniae,Amoxicillin,R,2025-10-05
+P0795,82,Female,Urine,Staphylococcus aureus,Vancomycin,S,2025-01-10
+P0796,31,Female,Blood,Acinetobacter baumannii,Amikacin,R,2025-12-04
+P0797,88,Female,CSF,Acinetobacter baumannii,Meropenem,S,2025-03-20
+P0798,83,Female,Blood,Acinetobacter baumannii,Gentamicin,R,2025-02-19
+P0799,17,Male,Blood,Acinetobacter baumannii,Amoxicillin,S,2025-04-14
+P0800,5,Female,Wound Swab,Escherichia coli,Vancomycin,S,2025-09-27
+P0801,47,Male,CSF,Acinetobacter baumannii,Piperacillin-Tazobactam,I,2025-02-06
+P0802,11,Female,Blood,Escherichia coli,Ciprofloxacin,R,2025-07-04
+P0803,8,Female,CSF,Acinetobacter baumannii,Meropenem,R,2025-01-21
+P0804,10,Male,CSF,Enterococcus faecalis,Amoxicillin,R,2025-02-19
+P0805,25,Male,CSF,Escherichia coli,Ciprofloxacin,I,2025-12-03
+P0806,23,Female,Blood,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-11-23
+P0807,90,Female,Blood,Acinetobacter baumannii,Amikacin,R,2025-03-27
+P0808,44,Male,CSF,Klebsiella pneumoniae,Linezolid,I,2025-11-04
+P0809,71,Female,Sputum,Pseudomonas aeruginosa,Amikacin,R,2025-07-31
+P0810,42,Male,CSF,Enterococcus faecalis,Meropenem,R,2025-10-07
+P0811,33,Female,Wound Swab,Klebsiella pneumoniae,Meropenem,R,2025-08-18
+P0812,37,Male,CSF,Pseudomonas aeruginosa,Ampicillin,R,2025-03-11
+P0813,29,Male,Sputum,Staphylococcus aureus,Ampicillin,S,2025-01-12
+P0814,66,Male,Blood,Enterococcus faecalis,Gentamicin,R,2025-01-20
+P0815,34,Female,CSF,Pseudomonas aeruginosa,Amikacin,S,2025-05-08
+P0816,12,Female,CSF,Klebsiella pneumoniae,Gentamicin,R,2025-04-22
+P0817,62,Male,Wound Swab,Enterococcus faecalis,Amoxicillin,R,2025-12-20
+P0818,13,Female,Blood,Enterococcus faecalis,Piperacillin-Tazobactam,R,2025-10-23
+P0819,43,Female,Wound Swab,Pseudomonas aeruginosa,Amoxicillin,R,2025-08-02
+P0820,78,Male,Wound Swab,Escherichia coli,Ciprofloxacin,R,2025-01-28
+P0821,70,Male,Sputum,Staphylococcus aureus,Linezolid,S,2025-09-15
+P0822,87,Female,Wound Swab,Enterococcus faecalis,Ciprofloxacin,S,2025-11-01
+P0823,56,Female,Wound Swab,Acinetobacter baumannii,Linezolid,S,2025-03-17
+P0824,74,Male,CSF,Klebsiella pneumoniae,Amikacin,S,2025-07-24
+P0825,56,Male,Urine,Staphylococcus aureus,Amoxicillin,S,2025-09-04
+P0826,84,Male,CSF,Acinetobacter baumannii,Ciprofloxacin,R,2025-11-12
+P0827,10,Female,Wound Swab,Enterococcus faecalis,Linezolid,S,2025-06-15
+P0828,86,Female,Wound Swab,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-07-07
+P0829,77,Male,Sputum,Staphylococcus aureus,Ciprofloxacin,S,2025-03-28
+P0830,57,Male,Wound Swab,Staphylococcus aureus,Piperacillin-Tazobactam,R,2025-01-23
+P0831,20,Male,Blood,Klebsiella pneumoniae,Ciprofloxacin,R,2025-01-28
+P0832,37,Male,Sputum,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-12-22
+P0833,3,Female,Urine,Escherichia coli,Gentamicin,I,2025-10-03
+P0834,34,Female,CSF,Klebsiella pneumoniae,Ciprofloxacin,R,2025-03-14
+P0835,85,Male,Sputum,Enterococcus faecalis,Ampicillin,S,2025-03-29
+P0836,90,Female,Blood,Escherichia coli,Gentamicin,S,2025-08-27
+P0837,85,Female,Sputum,Enterococcus faecalis,Ampicillin,S,2025-02-25
+P0838,84,Female,Urine,Escherichia coli,Gentamicin,R,2025-07-14
+P0839,63,Male,Urine,Acinetobacter baumannii,Amoxicillin,R,2025-04-12
+P0840,3,Male,Urine,Acinetobacter baumannii,Vancomycin,R,2025-09-29
+P0841,21,Male,Sputum,Staphylococcus aureus,Amikacin,S,2025-12-17
+P0842,31,Female,Blood,Staphylococcus aureus,Amikacin,I,2025-11-17
+P0843,4,Female,Urine,Staphylococcus aureus,Meropenem,R,2025-03-19
+P0844,12,Female,CSF,Staphylococcus aureus,Meropenem,R,2025-12-14
+P0845,74,Male,Wound Swab,Acinetobacter baumannii,Ciprofloxacin,R,2025-06-09
+P0846,17,Male,Urine,Acinetobacter baumannii,Amikacin,R,2025-10-25
+P0847,40,Male,Wound Swab,Acinetobacter baumannii,Ciprofloxacin,R,2025-03-16
+P0848,41,Male,CSF,Enterococcus faecalis,Piperacillin-Tazobactam,R,2025-09-30
+P0849,19,Male,Sputum,Enterococcus faecalis,Amoxicillin,S,2025-07-31
+P0850,82,Female,Urine,Pseudomonas aeruginosa,Gentamicin,R,2025-04-07
+P0851,79,Female,CSF,Escherichia coli,Ceftriaxone,S,2025-10-18
+P0852,30,Male,Sputum,Acinetobacter baumannii,Ciprofloxacin,R,2025-02-10
+P0853,78,Female,Sputum,Enterococcus faecalis,Vancomycin,S,2025-04-05
+P0854,21,Male,Urine,Pseudomonas aeruginosa,Vancomycin,R,2025-01-17
+P0855,53,Male,Urine,Pseudomonas aeruginosa,Ampicillin,R,2025-04-15
+P0856,57,Female,Sputum,Escherichia coli,Ceftriaxone,R,2025-08-23
+P0857,6,Female,Sputum,Klebsiella pneumoniae,Meropenem,I,2025-07-21
+P0858,68,Male,CSF,Acinetobacter baumannii,Piperacillin-Tazobactam,R,2025-02-25
+P0859,6,Male,CSF,Pseudomonas aeruginosa,Vancomycin,R,2025-10-03
+P0860,67,Male,Urine,Pseudomonas aeruginosa,Ampicillin,R,2025-05-30
+P0861,37,Female,Urine,Pseudomonas aeruginosa,Meropenem,R,2025-08-05
+P0862,89,Male,Wound Swab,Staphylococcus aureus,Piperacillin-Tazobactam,R,2025-11-27
+P0863,15,Male,CSF,Pseudomonas aeruginosa,Amoxicillin,R,2025-12-23
+P0864,42,Female,Blood,Acinetobacter baumannii,Ceftriaxone,R,2025-04-02
+P0865,26,Female,Blood,Pseudomonas aeruginosa,Piperacillin-Tazobactam,R,2025-05-09
+P0866,16,Male,Blood,Staphylococcus aureus,Ceftriaxone,R,2025-12-28
+P0867,50,Male,Wound Swab,Pseudomonas aeruginosa,Amikacin,S,2025-10-09
+P0868,43,Male,Urine,Pseudomonas aeruginosa,Ampicillin,R,2025-03-16
+P0869,40,Female,Sputum,Klebsiella pneumoniae,Ampicillin,I,2025-11-17
+P0870,26,Male,CSF,Klebsiella pneumoniae,Amoxicillin,R,2025-05-10
+P0871,64,Male,CSF,Escherichia coli,Vancomycin,I,2025-09-10
+P0872,61,Female,Wound Swab,Klebsiella pneumoniae,Ciprofloxacin,R,2025-08-15
+P0873,32,Female,CSF,Escherichia coli,Piperacillin-Tazobactam,R,2025-11-18
+P0874,19,Male,Sputum,Acinetobacter baumannii,Ciprofloxacin,S,2025-01-19
+P0875,78,Female,Sputum,Klebsiella pneumoniae,Ampicillin,R,2025-02-14
+P0876,23,Male,Sputum,Escherichia coli,Amoxicillin,S,2025-11-09
+P0877,72,Male,Wound Swab,Enterococcus faecalis,Piperacillin-Tazobactam,S,2025-10-24
+P0878,39,Female,Sputum,Staphylococcus aureus,Ampicillin,S,2025-07-14
+P0879,9,Female,Wound Swab,Escherichia coli,Meropenem,R,2025-03-10
+P0880,53,Male,Urine,Escherichia coli,Gentamicin,S,2025-11-10
+P0881,81,Male,Wound Swab,Escherichia coli,Amoxicillin,R,2025-12-19
+P0882,41,Female,CSF,Acinetobacter baumannii,Gentamicin,R,2025-10-22
+P0883,79,Female,CSF,Acinetobacter baumannii,Amikacin,R,2025-11-20
+P0884,79,Male,Sputum,Pseudomonas aeruginosa,Vancomycin,R,2025-04-10
+P0885,81,Male,Urine,Escherichia coli,Amoxicillin,S,2025-11-12
+P0886,45,Male,Blood,Pseudomonas aeruginosa,Meropenem,S,2025-11-24
+P0887,9,Female,Sputum,Klebsiella pneumoniae,Gentamicin,S,2025-09-17
+P0888,15,Female,Sputum,Acinetobacter baumannii,Amikacin,R,2025-07-22
+P0889,4,Male,Urine,Enterococcus faecalis,Piperacillin-Tazobactam,I,2025-06-19
+P0890,5,Male,Wound Swab,Staphylococcus aureus,Vancomycin,R,2025-03-21
+P0891,69,Female,Wound Swab,Enterococcus faecalis,Vancomycin,R,2025-07-31
+P0892,39,Female,CSF,Enterococcus faecalis,Ampicillin,R,2025-10-02
+P0893,43,Female,Blood,Escherichia coli,Ciprofloxacin,R,2025-03-18
+P0894,49,Male,CSF,Staphylococcus aureus,Ampicillin,S,2025-11-07
+P0895,40,Female,Blood,Pseudomonas aeruginosa,Ceftriaxone,R,2025-05-20
+P0896,31,Female,Wound Swab,Pseudomonas aeruginosa,Amoxicillin,R,2025-06-04
+P0897,15,Female,Blood,Klebsiella pneumoniae,Linezolid,S,2025-04-14
+P0898,62,Male,Urine,Escherichia coli,Vancomycin,I,2025-06-24
+P0899,42,Male,Blood,Pseudomonas aeruginosa,Linezolid,I,2025-09-22
+P0900,5,Female,Wound Swab,Enterococcus faecalis,Ceftriaxone,S,2025-09-25
+P0901,6,Male,Sputum,Escherichia coli,Ampicillin,S,2025-08-28
+P0902,85,Female,Blood,Escherichia coli,Amoxicillin,I,2025-10-23
+P0903,25,Female,Sputum,Staphylococcus aureus,Ciprofloxacin,S,2025-09-30
+P0904,35,Male,Urine,Staphylococcus aureus,Vancomycin,R,2025-05-21
+P0905,72,Male,Urine,Escherichia coli,Ampicillin,R,2025-10-05
+P0906,19,Female,CSF,Staphylococcus aureus,Linezolid,S,2025-05-06
+P0907,44,Female,Blood,Klebsiella pneumoniae,Amoxicillin,S,2025-03-08
+P0908,7,Male,Wound Swab,Escherichia coli,Vancomycin,R,2025-01-28
+P0909,77,Female,CSF,Escherichia coli,Meropenem,S,2025-07-02
+P0910,86,Male,Wound Swab,Staphylococcus aureus,Amikacin,R,2025-10-18
+P0911,90,Female,Blood,Klebsiella pneumoniae,Amoxicillin,R,2025-08-22
+P0912,29,Male,CSF,Staphylococcus aureus,Vancomycin,S,2025-05-13
+P0913,86,Female,Sputum,Staphylococcus aureus,Meropenem,S,2025-08-21
+P0914,15,Female,Wound Swab,Pseudomonas aeruginosa,Ampicillin,S,2025-08-25
+P0915,78,Male,CSF,Klebsiella pneumoniae,Gentamicin,R,2025-02-22
+P0916,84,Male,Sputum,Pseudomonas aeruginosa,Amoxicillin,I,2025-09-30
+P0917,31,Male,CSF,Pseudomonas aeruginosa,Meropenem,R,2025-03-23
+P0918,27,Female,Wound Swab,Pseudomonas aeruginosa,Meropenem,S,2025-10-18
+P0919,23,Male,CSF,Staphylococcus aureus,Linezolid,R,2025-09-07
+P0920,42,Male,Wound Swab,Escherichia coli,Piperacillin-Tazobactam,R,2025-04-01
+P0921,14,Female,Sputum,Staphylococcus aureus,Meropenem,S,2025-09-11
+P0922,18,Male,Urine,Enterococcus faecalis,Ampicillin,S,2025-12-05
+P0923,50,Female,Urine,Klebsiella pneumoniae,Vancomycin,R,2025-04-16
+P0924,87,Female,Wound Swab,Enterococcus faecalis,Amikacin,S,2025-06-26
+P0925,66,Female,Urine,Escherichia coli,Piperacillin-Tazobactam,S,2025-05-31
+P0926,7,Male,CSF,Escherichia coli,Amikacin,R,2025-07-03
+P0927,31,Female,CSF,Escherichia coli,Gentamicin,R,2025-07-21
+P0928,52,Female,Wound Swab,Enterococcus faecalis,Amikacin,R,2025-10-07
+P0929,25,Female,Sputum,Klebsiella pneumoniae,Ceftriaxone,R,2025-08-02
+P0930,86,Male,Urine,Klebsiella pneumoniae,Gentamicin,R,2025-01-06
+P0931,63,Female,Urine,Escherichia coli,Ampicillin,S,2025-02-13
+P0932,90,Female,CSF,Klebsiella pneumoniae,Meropenem,R,2025-04-03
+P0933,58,Female,Sputum,Pseudomonas aeruginosa,Linezolid,R,2025-04-26
+P0934,74,Female,Urine,Klebsiella pneumoniae,Meropenem,R,2025-12-31
+P0935,70,Female,Blood,Acinetobacter baumannii,Gentamicin,R,2025-01-20
+P0936,15,Female,Blood,Acinetobacter baumannii,Vancomycin,R,2025-03-14
+P0937,36,Female,CSF,Enterococcus faecalis,Linezolid,R,2025-02-10
+P0938,61,Male,CSF,Acinetobacter baumannii,Piperacillin-Tazobactam,S,2025-10-24
+P0939,44,Male,Wound Swab,Staphylococcus aureus,Piperacillin-Tazobactam,S,2025-08-21
+P0940,43,Female,Sputum,Acinetobacter baumannii,Vancomycin,R,2025-05-31
+P0941,77,Female,CSF,Staphylococcus aureus,Ceftriaxone,S,2025-05-14
+P0942,74,Male,Sputum,Escherichia coli,Vancomycin,R,2025-11-16
+P0943,17,Male,Sputum,Escherichia coli,Gentamicin,I,2025-05-10
+P0944,33,Male,Blood,Klebsiella pneumoniae,Piperacillin-Tazobactam,S,2025-11-06
+P0945,85,Female,Sputum,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-03-31
+P0946,68,Male,Sputum,Staphylococcus aureus,Ciprofloxacin,S,2025-02-13
+P0947,20,Female,Wound Swab,Klebsiella pneumoniae,Piperacillin-Tazobactam,R,2025-07-16
+P0948,22,Male,CSF,Klebsiella pneumoniae,Vancomycin,R,2025-06-26
+P0949,15,Male,Urine,Escherichia coli,Gentamicin,R,2025-08-26
+P0950,69,Male,Wound Swab,Pseudomonas aeruginosa,Vancomycin,I,2025-12-16
+P0951,19,Female,Blood,Enterococcus faecalis,Meropenem,S,2025-05-28
+P0952,68,Male,Blood,Pseudomonas aeruginosa,Meropenem,R,2025-09-30
+P0953,56,Female,Sputum,Enterococcus faecalis,Amikacin,R,2025-05-19
+P0954,75,Female,Wound Swab,Staphylococcus aureus,Amoxicillin,S,2025-12-12
+P0955,76,Male,CSF,Enterococcus faecalis,Ciprofloxacin,R,2025-06-22
+P0956,2,Male,Blood,Enterococcus faecalis,Ceftriaxone,S,2025-01-07
+P0957,88,Female,Sputum,Pseudomonas aeruginosa,Amoxicillin,R,2025-04-23
+P0958,5,Male,CSF,Enterococcus faecalis,Gentamicin,S,2025-02-17
+P0959,28,Male,Blood,Escherichia coli,Piperacillin-Tazobactam,R,2025-02-14
+P0960,83,Male,Blood,Acinetobacter baumannii,Ceftriaxone,R,2025-12-23
+P0961,85,Male,Wound Swab,Klebsiella pneumoniae,Gentamicin,S,2025-05-22
+P0962,10,Female,Blood,Pseudomonas aeruginosa,Amikacin,I,2025-07-15
+P0963,34,Female,Urine,Pseudomonas aeruginosa,Amikacin,R,2025-08-14
+P0964,26,Female,Urine,Escherichia coli,Vancomycin,R,2025-11-27
+P0965,56,Male,CSF,Pseudomonas aeruginosa,Amoxicillin,S,2025-11-26
+P0966,14,Male,Blood,Escherichia coli,Vancomycin,R,2025-02-06
+P0967,3,Female,Urine,Acinetobacter baumannii,Gentamicin,R,2025-12-01
+P0968,86,Female,Sputum,Enterococcus faecalis,Ampicillin,R,2025-03-19
+P0969,74,Male,CSF,Enterococcus faecalis,Amikacin,R,2025-12-29
+P0970,9,Male,Blood,Pseudomonas aeruginosa,Vancomycin,R,2025-07-16
+P0971,69,Female,Sputum,Enterococcus faecalis,Vancomycin,S,2025-12-16
+P0972,83,Male,Sputum,Staphylococcus aureus,Meropenem,S,2025-10-01
+P0973,38,Male,Urine,Staphylococcus aureus,Amoxicillin,R,2025-10-11
+P0974,39,Female,Blood,Escherichia coli,Meropenem,R,2025-11-19
+P0975,81,Female,Urine,Enterococcus faecalis,Amikacin,S,2025-03-13
+P0976,76,Male,Wound Swab,Escherichia coli,Ciprofloxacin,S,2025-07-19
+P0977,64,Female,Blood,Escherichia coli,Linezolid,R,2025-01-19
+P0978,6,Female,Blood,Staphylococcus aureus,Ampicillin,S,2025-04-19
+P0979,87,Male,CSF,Enterococcus faecalis,Linezolid,S,2025-04-30
+P0980,63,Male,Wound Swab,Escherichia coli,Ampicillin,R,2025-11-13
+P0981,17,Male,Urine,Escherichia coli,Ciprofloxacin,R,2025-11-20
+P0982,13,Female,CSF,Escherichia coli,Gentamicin,R,2025-03-29
+P0983,14,Male,Wound Swab,Acinetobacter baumannii,Amoxicillin,R,2025-11-01
+P0984,26,Female,Sputum,Acinetobacter baumannii,Ciprofloxacin,S,2025-12-14
+P0985,88,Male,Sputum,Pseudomonas aeruginosa,Amikacin,S,2025-04-20
+P0986,9,Male,Sputum,Escherichia coli,Piperacillin-Tazobactam,S,2025-03-14
+P0987,71,Male,Wound Swab,Pseudomonas aeruginosa,Ceftriaxone,R,2025-05-05
+P0988,81,Female,Urine,Acinetobacter baumannii,Ampicillin,S,2025-01-09
+P0989,23,Male,CSF,Pseudomonas aeruginosa,Amoxicillin,S,2025-05-26
+P0990,27,Male,Sputum,Pseudomonas aeruginosa,Vancomycin,R,2025-09-25
+P0991,23,Male,CSF,Pseudomonas aeruginosa,Meropenem,S,2025-04-03
+P0992,12,Female,Sputum,Enterococcus faecalis,Vancomycin,I,2025-08-03
+P0993,16,Male,CSF,Escherichia coli,Linezolid,S,2025-07-05
+P0994,81,Male,Sputum,Acinetobacter baumannii,Linezolid,I,2025-01-28
+P0995,88,Female,Wound Swab,Klebsiella pneumoniae,Amoxicillin,R,2025-04-01
+P0996,47,Female,Urine,Klebsiella pneumoniae,Ampicillin,S,2025-08-11
+P0997,59,Male,Blood,Staphylococcus aureus,Amikacin,I,2025-01-27
+P0998,4,Female,CSF,Acinetobacter baumannii,Ceftriaxone,S,2025-03-01
+P0999,76,Female,Wound Swab,Escherichia coli,Ciprofloxacin,R,2025-04-12
+P1000,15,Female,Urine,Enterococcus faecalis,Amikacin,S,2025-02-20
