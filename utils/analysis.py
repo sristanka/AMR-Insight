@@ -1,14 +1,3 @@
-"""
-analysis.py
------------
-
-This module performs statistical analysis on the
-Antimicrobial Resistance dataset.
-
-Author: Sris
-Project: AMR Insight
-"""
-
 import pandas as pd
 
 
@@ -26,10 +15,8 @@ def generate_analysis(df: pd.DataFrame) -> dict:
         Dictionary containing important analysis results.
     """
 
-    # ------------------------------------------
+  
     # Empty dataset check
-    # ------------------------------------------
-
     if df.empty:
 
         return {
@@ -41,10 +28,8 @@ def generate_analysis(df: pd.DataFrame) -> dict:
             "female_patients": 0,
         }
 
-    # ------------------------------------------
+   
     # Most Resistant Organism
-    # ------------------------------------------
-
     resistant_df = df[df["Result"] == "R"]
 
     if resistant_df.empty:
@@ -56,36 +41,28 @@ def generate_analysis(df: pd.DataFrame) -> dict:
             .idxmax()
         )
 
-    # ------------------------------------------
+    
     # Most Tested Antibiotic
-    # ------------------------------------------
-
     most_antibiotic = (
         df["Antibiotic"]
         .value_counts()
         .idxmax()
     )
 
-    # ------------------------------------------
+    
     # Most Common Sample
-    # ------------------------------------------
-
     most_sample = (
         df["Sample_Type"]
         .value_counts()
         .idxmax()
     )
 
-    # ------------------------------------------
+    
     # Average Patient Age
-    # ------------------------------------------
-
     average_age = round(df["Age"].mean(), 1)
 
-    # ------------------------------------------
+  
     # Gender Counts
-    # ------------------------------------------
-
     male_patients = len(
         df[df["Gender"] == "Male"]
     )
@@ -94,10 +71,8 @@ def generate_analysis(df: pd.DataFrame) -> dict:
         df[df["Gender"] == "Female"]
     )
 
-    # ------------------------------------------
+    
     # Return Dictionary
-    # ------------------------------------------
-
     return {
 
         "most_resistant_organism": most_resistant,
