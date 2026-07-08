@@ -16,10 +16,7 @@ from utils.analysis import generate_analysis
 from utils.export import download_csv
 
 
-# ==========================================================
 # PAGE CONFIGURATION
-# ==========================================================
-
 st.set_page_config(
     page_title="AMR Insight",
     page_icon="🦠",
@@ -27,33 +24,25 @@ st.set_page_config(
 )
 
 
-# ==========================================================
-# LOAD DATA
-# ==========================================================
 
+# LOAD DATA
 df = load_data("data/amr_data.csv")
 
 
-# ==========================================================
-# SIDEBAR FILTERS
-# ==========================================================
 
+# SIDEBAR FILTERS
 filtered_df = apply_filters(df)
 
 
-# ==========================================================
-# CALCULATE METRICS
-# ==========================================================
 
+# CALCULATE METRICS
 metrics = calculate_metrics(filtered_df)
 
 analysis = generate_analysis(filtered_df)
 
 
-# ==========================================================
-# TITLE
-# ==========================================================
 
+# TITLE
 st.title("🦠 AMR Insight")
 
 st.subheader("Interactive Antimicrobial Resistance Surveillance Dashboard")
@@ -61,10 +50,8 @@ st.subheader("Interactive Antimicrobial Resistance Surveillance Dashboard")
 st.markdown("---")
 
 
-# ==========================================================
-# DASHBOARD METRICS
-# ==========================================================
 
+# DASHBOARD METRICS
 st.header("📊 Dashboard Overview")
 
 col1, col2, col3, col4 = st.columns(4)
@@ -87,10 +74,8 @@ with col4:
 st.markdown("---")
 
 
-# ==========================================================
-# RESULT SUMMARY
-# ==========================================================
 
+# RESULT SUMMARY
 st.header("🧾 Susceptibility Summary")
 
 col1, col2, col3 = st.columns(3)
@@ -113,10 +98,8 @@ with col3:
 st.markdown("---")
 
 
-# ==========================================================
-# CHARTS
-# ==========================================================
 
+# CHARTS
 st.header("📊 Visual Analytics")
 
 st.plotly_chart(
@@ -157,10 +140,8 @@ st.plotly_chart(
 st.markdown("---")
 
 
-# ==========================================================
-# ANALYSIS
-# ==========================================================
 
+# ANALYSIS
 st.header("🔬 Dataset Insights")
 
 col1, col2 = st.columns(2)
@@ -202,10 +183,8 @@ with col2:
 st.markdown("---")
 
 
-# ==========================================================
-# DATASET PREVIEW
-# ==========================================================
 
+# DATASET PREVIEW
 st.header("📋 Dataset Preview")
 
 st.dataframe(
@@ -216,10 +195,8 @@ st.dataframe(
 st.markdown("---")
 
 
-# ==========================================================
-# DOWNLOAD
-# ==========================================================
 
+# DOWNLOAD
 st.header("📥 Export Data")
 
 download_csv(filtered_df)
