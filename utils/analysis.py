@@ -2,20 +2,7 @@ import pandas as pd
 
 
 def generate_analysis(df: pd.DataFrame) -> dict:
-    """
-    Generate key AMR statistics from the filtered dataset.
-
-    Parameters
-    ----------
-    df : pandas.DataFrame
-
-    Returns
-    -------
-    dict
-        Dictionary containing important analysis results.
-    """
-
-  
+    
     # Empty dataset check
     if df.empty:
 
