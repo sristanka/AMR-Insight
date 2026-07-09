@@ -1,11 +1,5 @@
 """
-export.py
----------
-
-This module handles exporting the filtered dataset.
-
-Author: Sristanka
-Project: AMR Insight
+export.py: This module handles exporting the filtered dataset.
 """
 
 import streamlit as st
@@ -13,9 +7,6 @@ import pandas as pd
 
 
 def download_csv(df: pd.DataFrame):
-    """
-    Display a download button for the filtered dataset.
-    """
 
     csv = df.to_csv(index=False).encode("utf-8")
 
