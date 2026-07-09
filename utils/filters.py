@@ -1,12 +1,5 @@
 """
-filters.py
-----------
-
-This module creates the sidebar filters and
-returns the filtered dataset.
-
-Author: Sris
-Project: AMR Insight
+filters.py: This module creates the sidebar filters and returns the filtered dataset.
 """
 
 import streamlit as st
@@ -14,19 +7,6 @@ import pandas as pd
 
 
 def apply_filters(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Create sidebar filters and return the filtered DataFrame.
-
-    Parameters
-    ----------
-    df : pandas.DataFrame
-        Original dataset.
-
-    Returns
-    -------
-    pandas.DataFrame
-        Filtered dataset.
-    """
 
     st.sidebar.title("🦠 AMR Insight")
 
@@ -38,37 +18,29 @@ def apply_filters(df: pd.DataFrame) -> pd.DataFrame:
 
     st.sidebar.header("🔍 Filters")
 
-    # ==========================================
+    
     # Organism Filter
-    # ==========================================
-
     organism = st.sidebar.selectbox(
         "Select Organism",
         ["All"] + sorted(df["Organism"].unique())
     )
 
-    # ==========================================
+    
     # Antibiotic Filter
-    # ==========================================
-
     antibiotic = st.sidebar.selectbox(
         "Select Antibiotic",
         ["All"] + sorted(df["Antibiotic"].unique())
     )
 
-    # ==========================================
+   
     # Sample Type Filter
-    # ==========================================
-
     sample = st.sidebar.selectbox(
         "Select Sample Type",
         ["All"] + sorted(df["Sample_Type"].unique())
     )
 
-    # ==========================================
+   
     # Result Filter
-    # ==========================================
-
     result = st.sidebar.selectbox(
         "Select Result",
         ["All", "S", "I", "R"]
@@ -80,10 +52,8 @@ def apply_filters(df: pd.DataFrame) -> pd.DataFrame:
         "Use these filters to explore antimicrobial resistance patterns."
     )
 
-    # ==========================================
+    
     # Apply Filters
-    # ==========================================
-
     filtered_df = df.copy()
 
     if organism != "All":
