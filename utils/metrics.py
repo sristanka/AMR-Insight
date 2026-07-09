@@ -1,31 +1,14 @@
 """
 metrics.py
-----------
-
 This module calculates all dashboard metrics for
 the AMR Insight application.
 
-Author: Sris
-Project: AMR Insight
 """
 
 import pandas as pd
 
 
 def calculate_metrics(df: pd.DataFrame) -> dict:
-    """
-    Calculate dashboard metrics.
-
-    Parameters
-    ----------
-    df : pandas.DataFrame
-        Filtered dataset.
-
-    Returns
-    -------
-    dict
-        Dictionary containing all dashboard metrics.
-    """
 
     total_samples = len(df)
 
