@@ -1,11 +1,5 @@
 """
-loader.py
-----------
-
-This module is responsible for loading the AMR dataset.
-
-Author: Sris
-Project: AMR Insight
+loader.py: This module is responsible for loading the AMR dataset.
 """
 
 import pandas as pd
@@ -14,19 +8,6 @@ import streamlit as st
 
 @st.cache_data
 def load_data(file_path: str) -> pd.DataFrame:
-    """
-    Load the antimicrobial resistance dataset.
-
-    Parameters
-    ----------
-    file_path : str
-        Path to the CSV dataset.
-
-    Returns
-    -------
-    pandas.DataFrame
-        Loaded dataset.
-    """
 
     try:
         df = pd.read_csv(file_path)
