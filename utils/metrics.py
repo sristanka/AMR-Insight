@@ -1,8 +1,5 @@
 """
-metrics.py
-This module calculates all dashboard metrics for
-the AMR Insight application.
-
+metrics.py: This module calculates all dashboard metrics for the AMR Insight application.
 """
 
 import pandas as pd
