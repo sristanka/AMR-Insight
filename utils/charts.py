@@ -1,22 +1,13 @@
 """
-charts.py
----------
-
-This module contains all Plotly visualizations used
-in the AMR Insight dashboard.
-
-Author: Sris
-Project: AMR Insight
+charts.py: This module contains all Plotly visualizations used in the AMR Insight dashboard.
 """
 
 import pandas as pd
 import plotly.express as px
 
 
-# ==========================================================
-# Result Distribution Pie Chart
-# ==========================================================
 
+# Result Distribution Pie Chart
 def create_result_pie_chart(df: pd.DataFrame):
     """
     Create a pie chart showing
@@ -40,10 +31,8 @@ def create_result_pie_chart(df: pd.DataFrame):
     return fig
 
 
-# ==========================================================
-# Organism Distribution
-# ==========================================================
 
+# Organism Distribution
 def create_organism_chart(df: pd.DataFrame):
     """
     Create bar chart showing number of isolates
@@ -69,10 +58,8 @@ def create_organism_chart(df: pd.DataFrame):
     return fig
 
 
-# ==========================================================
-# Antibiotic Distribution
-# ==========================================================
 
+# Antibiotic Distribution
 def create_antibiotic_chart(df: pd.DataFrame):
     """
     Create bar chart showing how many
@@ -98,10 +85,8 @@ def create_antibiotic_chart(df: pd.DataFrame):
     return fig
 
 
-# ==========================================================
-# Sample Type Distribution
-# ==========================================================
 
+# Sample Type Distribution
 def create_sample_type_chart(df: pd.DataFrame):
     """
     Create bar chart for sample type distribution.
@@ -126,10 +111,8 @@ def create_sample_type_chart(df: pd.DataFrame):
     return fig
 
 
-# ==========================================================
-# Gender Distribution
-# ==========================================================
 
+# Gender Distribution
 def create_gender_chart(df: pd.DataFrame):
     """
     Create gender distribution chart.
@@ -150,10 +133,8 @@ def create_gender_chart(df: pd.DataFrame):
     return fig
 
 
-# ==========================================================
-# Age Distribution
-# ==========================================================
 
+# Age Distribution
 def create_age_histogram(df: pd.DataFrame):
     """
     Create histogram showing patient age distribution.
@@ -169,10 +150,8 @@ def create_age_histogram(df: pd.DataFrame):
     return fig
 
 
-# ==========================================================
-# Resistance Heatmap
-# ==========================================================
 
+# Resistance Heatmap
 def create_resistance_heatmap(df: pd.DataFrame):
     """
     Create a heatmap showing the number of resistant (R)
